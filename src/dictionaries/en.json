@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Home",
+    "results": "Results",
+    "blog": "Blog",
+    "about": "About"
+  },
+  "hero": {
+    "badge": "Erasmus+ KA210-YOU",
+    "title": "Cultural Bridges",
+    "subtitle": "Strengthening Interculturality and Social Inclusion among Youth",
+    "quote": "Building bridges between cultures, breaking walls between people.",
+    "cta_results": "View results",
+    "cta_blog": "Read the blog"
+  },
+  "stats": {
+    "participants": "Participants",
+    "countries": "Partner countries",
+    "months": "Project months",
+    "budget": "Total budget"
+  },
+  "project": {
+    "title": "The Project",
+    "desc1": "<strong>Cultural Bridges (CCIY)</strong> is an Erasmus+ KA210-YOU partnership that brings together three youth organisations from Spain, Poland, and France to foster intercultural understanding, fight discrimination, and promote social inclusion among young Europeans.",
+    "desc2": "Over 18 months (December 2024 - May 2026), the project creates spaces for youth from diverse backgrounds to learn from each other, challenge stereotypes, and build lasting connections across borders."
+  },
+  "approach": {
+    "title": "Our Approach",
+    "pillar1_title": "Non-Formal Education",
+    "pillar1_desc": "Interactive workshops, peer learning, and creative expression to build intercultural competences outside the classroom.",
+    "pillar2_title": "Intercultural Immersion",
+    "pillar2_desc": "Direct exchange experiences across three countries, bringing young people face to face with different cultures, traditions, and perspectives.",
+    "pillar3_title": "Youth Empowerment",
+    "pillar3_desc": "Equipping participants with the skills, confidence, and networks to become active agents of inclusion in their own communities."
+  },
+  "partners_section": {
+    "title": "Partner Countries",
+    "spain": "Spain",
+    "poland": "Poland",
+    "france": "France",
+    "coordinator": "Coordinator",
+    "partner": "Partner"
+  },
+  "cta": {
+    "title": "Discover our deliverables",
+    "desc": "Activity reports, pedagogical guides, brochures and more.",
+    "button": "Explore results"
+  },
+  "blog_page": {
+    "title": "Blog & Articles",
+    "subtitle": "Press releases, testimonials and opinion pieces from the Cultural Bridges project",
+    "read_more": "Read full article"
+  },
+  "results_page": {
+    "title": "Results & Deliverables",
+    "subtitle": "All documents and outputs from the Cultural Bridges project",
+    "note": "All documents are available in PDF format. For more information, contact one of the project partners.",
+    "cat1": "Activity Reports",
+    "cat2": "Questionnaires & Analyses",
+    "cat3": "Participant Project Proposals",
+    "cat4": "Publications & Guides",
+    "cat5": "Management Documents"
+  },
+  "about_page": {
+    "title": "About the project",
+    "subtitle": "Cultural Bridges: Strengthening Interculturality and Social Inclusion among Youth",
+    "project_card": "Project factsheet",
+    "challenge_title": "The challenge we address",
+    "challenge_p1": "Across Europe, young people continue to face barriers rooted in racism, discrimination, and social exclusion. Migrant and minority youth are disproportionately affected.",
+    "challenge_p2": "<strong>Cultural Bridges</strong> was designed in response to this reality -- because inclusion begins with encounter.",
+    "objectives_title": "Objectives",
+    "obj1_title": "Promote empathy and intercultural understanding",
+    "obj1_desc": "Enable participants to move beyond stereotypes and develop a deeper appreciation of cultural differences and similarities.",
+    "obj2_title": "Develop social and intercultural skills",
+    "obj2_desc": "Give young people the opportunity to practice communication, teamwork, and conflict resolution in real-life, multicultural settings.",
+    "obj3_title": "Build an international network of engaged youth",
+    "obj3_desc": "Foster the creation of lasting relationships and joint projects that promote inclusion and diversity across borders.",
+    "partners_title": "The partners",
+    "timeline_title": "Project timeline",
+    "disclaimer": "This project has been funded with support from the European Commission. This publication reflects the views only of the authors."
+  },
+  "about_partners": {
+    "org1_desc": "Youth association based in Lleida working for social inclusion and empowerment of young people from diverse backgrounds through non-formal education and European projects.",
+    "org2_desc": "Polish youth organisation based in Warsaw, committed to promoting intercultural dialogue, fighting discrimination, and integrating young migrants.",
+    "org3_desc": "French association located in Ile-de-France working for the social inclusion of young people through civic, educational, and intercultural actions."
+  },
+  "timeline": {
+    "t1_date": "December 2024",
+    "t1_event": "Project launch",
+    "t1_desc": "Official start of the partnership and activity planning.",
+    "t2_date": "January - April 2025",
+    "t2_event": "Activity 1: Local workshops",
+    "t2_desc": "Preparatory workshops in each partner country with young participants.",
+    "t3_date": "May 2025",
+    "t3_event": "Activity 2: Warsaw exchange",
+    "t3_desc": "5 days of cultural exchanges and field visits with 30 participants in Warsaw, Poland.",
+    "t4_date": "June 2025 - March 2026",
+    "t4_event": "Activity 3: Awareness campaigns",
+    "t4_desc": "Publication of articles, social media content, and community events in all 3 countries.",
+    "t5_date": "April - May 2026",
+    "t5_event": "Closure and final report",
+    "t5_desc": "Final evaluation, sustainability plan, and report submission to the national agency."
+  },
+  "footer": {
+    "tagline": "Strengthening Interculturality and Social Inclusion among Youth",
+    "period": "Erasmus+ KA210-YOU | Dec 2024 - May 2026",
+    "partners_title": "Partners",
+    "programme_title": "Programme",
+    "programme_desc": "Co-funded by the European Union through the Erasmus+ programme. Views expressed are those of the authors only.",
+    "copyright": "Cultural Bridges Project. Co-funded by the European Union."
+  },
+  "articles": {
+    "a1_tag": "Press release",
+    "a1_title": "30 Young Europeans Unite in Warsaw to Build Cultural Bridges",
+    "a1_excerpt": "Thirty young people from three European countries gathered in Warsaw from May 14 to 18, 2025, for a landmark youth exchange under the Erasmus+ project Cultural Bridges.",
+    "a1_date": "18 May 2025",
+    "a2_tag": "Testimonial",
+    "a2_title": "What I Learned About Myself by Living with 29 Strangers from 3 Countries",
+    "a2_excerpt": "I boarded the plane to Warsaw terrified. What I did not expect was that it would change the way I see myself.",
+    "a2_date": "May 2025",
+    "a3_tag": "Opinion piece",
+    "a3_title": "Why Non-Formal Education Is the Key to Fighting Racism Among Youth",
+    "a3_excerpt": "Europe has a racism problem, and traditional education alone is not solving it. At the Cultural Bridges project, we believe the answer lies in non-formal education.",
+    "a3_date": "May 2025"
+  },
+  "eu_disclaimer": "Co-funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the EACEA.",
+  "fields": {
+    "programme": "Programme",
+    "form_id": "Form ID",
+    "duration": "Duration",
+    "budget": "Total budget",
+    "participants": "Number of participants",
+    "language": "Working language",
+    "duration_val": "01/12/2024 - 31/05/2026 (18 months)",
+    "budget_val": "EUR 60,000",
+    "participants_val": "30 youth (18-30 years)",
+    "language_val": "English"
+  }
+}
