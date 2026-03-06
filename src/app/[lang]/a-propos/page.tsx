@@ -6,9 +6,9 @@ export default async function AProposPage({ params }: { params: Promise<{ lang: 
   const t = await getDictionary(lang as Locale);
 
   const partners = [
-    { name: "Associacio Juvenil Ndiatiguia Joves Units", role: t.partners_section.coordinator, country: t.partners_section.spain, city: "Lleida", flag: "\u{1F1EA}\u{1F1F8}", desc: t.about_partners.org1_desc, contact: "Nogay Ndiaye i Mir", contactRole: lang === "fr" ? "Présidente" : lang === "es" ? "Presidenta" : lang === "pl" ? "Przewodnicząca" : "President", email: "ndiatiguia@gmail.com", website: "www.ndiatiguia.cat" },
-    { name: "UGPA POLSKA", role: t.partners_section.partner, country: t.partners_section.poland, city: "Warsaw", flag: "\u{1F1F5}\u{1F1F1}", desc: t.about_partners.org2_desc, contact: "Adam Djato", contactRole: lang === "fr" ? "Président" : lang === "es" ? "Presidente" : lang === "pl" ? "Prezes" : "President", email: "ugpatogo@gmail.com", website: "www.ugpa.pl" },
-    { name: "Un Geste pour l'Avenir", role: t.partners_section.partner, country: t.partners_section.france, city: "Boissy-Saint-Leger", flag: "\u{1F1EB}\u{1F1F7}", desc: t.about_partners.org3_desc, contact: "Apelete Amuzou", contactRole: lang === "fr" ? "Président" : lang === "es" ? "Presidente" : lang === "pl" ? "Prezes" : "President", email: "Amuzou.apelete@orange.fr", website: "www.ugpa.org" },
+    { name: "Associacio Juvenil Ndiatiguia Joves Units", role: t.partners_section.coordinator, country: t.partners_section.spain, city: "Lleida", flag: "\u{1F1EA}\u{1F1F8}", desc: t.about_partners.org1_desc, contact: "Nogay Ndiaye i Mir", contactRole: lang === "fr" ? "Présidente" : lang === "es" ? "Presidenta" : lang === "pl" ? "Przewodnicząca" : "President", email: "ndiatiguia@gmail.com", website: "www.ndiatiguia.cat", logo: "/images/logo-ndiatiguia.jpeg" },
+    { name: "UGPA POLSKA", role: t.partners_section.partner, country: t.partners_section.poland, city: "Warsaw", flag: "\u{1F1F5}\u{1F1F1}", desc: t.about_partners.org2_desc, contact: "Adam Djato", contactRole: lang === "fr" ? "Président" : lang === "es" ? "Presidente" : lang === "pl" ? "Prezes" : "President", email: "ugpatogo@gmail.com", website: "www.ugpa.pl", logo: "/images/logo-ugpa-polska.jpeg" },
+    { name: "Un Geste pour l'Avenir", role: t.partners_section.partner, country: t.partners_section.france, city: "Boissy-Saint-Leger", flag: "\u{1F1EB}\u{1F1F7}", desc: t.about_partners.org3_desc, contact: "Apelete Amuzou", contactRole: lang === "fr" ? "Président" : lang === "es" ? "Presidente" : lang === "pl" ? "Prezes" : "President", email: "Amuzou.apelete@orange.fr", website: "www.ugpa.org", logo: "/images/logo-ugpa-france.jpeg" },
   ];
 
   const timeline = [
@@ -84,7 +84,7 @@ export default async function AProposPage({ params }: { params: Promise<{ lang: 
             {partners.map((p) => (
               <div key={p.name} className="border border-border rounded-xl p-5 sm:p-8">
                 <div className="flex items-start gap-3 sm:gap-4">
-                  <span className="text-3xl sm:text-4xl">{p.flag}</span>
+                  <Image src={p.logo} alt={p.name} width={64} height={64} className="w-12 h-12 sm:w-16 sm:h-16 object-contain rounded-lg shrink-0" />
                   <div className="min-w-0">
                     <h3 className="text-lg sm:text-xl font-bold">{p.name}</h3>
                     <p className="text-primary font-medium text-sm">{p.role} - {p.city}, {p.country}</p>

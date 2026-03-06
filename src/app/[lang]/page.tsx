@@ -35,9 +35,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   const posters = postersByLang[lang] || postersByLang.en;
 
   const partnersData = [
-    { flag: "\u{1F1EA}\u{1F1F8}", country: t.partners_section.spain, org: "Assoc. Juvenil Ndiatiguia Joves Units", city: "Lleida", role: t.partners_section.coordinator },
-    { flag: "\u{1F1F5}\u{1F1F1}", country: t.partners_section.poland, org: "UGPA POLSKA", city: "Varsovie / Warsaw", role: t.partners_section.partner },
-    { flag: "\u{1F1EB}\u{1F1F7}", country: t.partners_section.france, org: "Un Geste pour l'Avenir", city: "Boissy-Saint-Leger", role: t.partners_section.partner },
+    { flag: "\u{1F1EA}\u{1F1F8}", country: t.partners_section.spain, org: "Assoc. Juvenil Ndiatiguia Joves Units", city: "Lleida", role: t.partners_section.coordinator, logo: "/images/logo-ndiatiguia.jpeg" },
+    { flag: "\u{1F1F5}\u{1F1F1}", country: t.partners_section.poland, org: "UGPA POLSKA", city: "Varsovie / Warsaw", role: t.partners_section.partner, logo: "/images/logo-ugpa-polska.jpeg" },
+    { flag: "\u{1F1EB}\u{1F1F7}", country: t.partners_section.france, org: "Un Geste pour l'Avenir", city: "Boissy-Saint-Leger", role: t.partners_section.partner, logo: "/images/logo-ugpa-france.jpeg" },
   ];
 
   return (
@@ -149,7 +149,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             {partnersData.map((p) => (
               <div key={p.country} className="bg-white rounded-xl border border-border p-5 sm:p-6">
-                <span className="text-4xl sm:text-5xl mb-3 sm:mb-4 block">{p.flag}</span>
+                <Image src={p.logo} alt={p.org} width={80} height={80} className="w-16 h-16 sm:w-20 sm:h-20 object-contain mx-auto mb-3 sm:mb-4" />
                 <h3 className="text-xl font-bold">{p.country}</h3>
                 <p className="text-primary font-medium text-sm mt-1">{p.role}</p>
                 <p className="text-text-light mt-2 text-sm">{p.org}</p>
