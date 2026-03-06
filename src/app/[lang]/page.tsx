@@ -104,6 +104,16 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               { src: "/images/photo-riviera-audience.jpg", alt: "Riviera audience" },
               { src: "/images/photo-riviera-presentation.jpg", alt: "Presentation" },
               { src: "/images/photo-riviera-facilitator.jpg", alt: "Facilitator" },
+              { src: "/images/photo-gallery-visit.jpg", alt: "Art gallery visit" },
+              { src: "/images/photo-art-gallery.jpg", alt: "Art gallery" },
+              { src: "/images/photo-art-installation.jpg", alt: "Art installation" },
+              { src: "/images/photo-local-workshop.jpg", alt: "Local workshop France" },
+              { src: "/images/photo-group-outdoor.jpg", alt: "Group photo" },
+              { src: "/images/photo-facilitator-whiteboard.jpg", alt: "Facilitator presentation" },
+              { src: "/images/photo-gallery-discussion.jpg", alt: "Gallery discussion" },
+              { src: "/images/photo-group-fun.jpg", alt: "Group fun moment" },
+              { src: "/images/photo-gallery-selfie.jpg", alt: "Gallery group selfie" },
+              { src: "/images/photo-riviera-wide.jpg", alt: "Riviera workshop space" },
             ].map((photo) => (
               <div key={photo.src} className="rounded-lg overflow-hidden aspect-square relative hover:scale-[1.03] transition-transform shadow-md">
                 <Image src={photo.src} alt={photo.alt} fill className="object-cover" sizes="(max-width: 768px) 50vw, 20vw" />
@@ -112,10 +122,22 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </div>
           <div className="mt-12">
             <h3 className="text-xl font-bold text-center mb-6">{t.gallery.video_title}</h3>
-            <div className="max-w-xs mx-auto rounded-xl overflow-hidden shadow-lg">
-              <video controls className="w-full max-h-[400px]" preload="metadata" poster="/images/photo-riviera-facilitator.jpg">
-                <source src="/videos/cultural-bridges-exchange.mp4" type="video/mp4" />
-              </video>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+              <div className="rounded-xl overflow-hidden shadow-lg">
+                <video controls className="w-full max-h-[300px]" preload="metadata" poster="/images/photo-riviera-facilitator.jpg">
+                  <source src="/videos/cultural-bridges-exchange.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg">
+                <video controls className="w-full max-h-[300px]" preload="metadata" poster="/images/photo-gallery-visit.jpg">
+                  <source src="/videos/gallery-visit.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg">
+                <video controls className="w-full max-h-[300px]" preload="metadata" poster="/images/photo-riviera-wide.jpg">
+                  <source src="/videos/workshop-warsaw.mp4" type="video/mp4" />
+                </video>
+              </div>
             </div>
           </div>
         </div>
