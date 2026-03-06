@@ -1,5 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getDictionary, type Locale } from "@/i18n";
+
+const postersByLang: Record<string, { diversity: string; stopRacism: string; bridges: string }> = {
+  en: { diversity: "/images/poster-diversity.png", stopRacism: "/images/poster-stop-racism.png", bridges: "/images/poster-bridges.png" },
+  fr: { diversity: "/images/poster-diversity-fr.png", stopRacism: "/images/poster-stop-racism-fr.png", bridges: "/images/poster-bridges-fr.png" },
+  es: { diversity: "/images/poster-diversity-es.png", stopRacism: "/images/poster-stop-racism-es.png", bridges: "/images/poster-bridges-es.png" },
+  pl: { diversity: "/images/poster-diversity-pl.png", stopRacism: "/images/poster-stop-racism-pl.png", bridges: "/images/poster-bridges-pl.png" },
+};
 
 const icons = [
   <svg key="1" className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>,
@@ -18,11 +26,13 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   ];
 
   const stats = [
-    { value: "30", label: t.stats.participants },
+    { value: "1 600+", label: t.stats.youth_reached },
     { value: "3", label: t.stats.countries },
     { value: "18", label: t.stats.months },
     { value: "60 000 EUR", label: t.stats.budget },
   ];
+
+  const posters = postersByLang[lang] || postersByLang.en;
 
   const partnersData = [
     { flag: "\u{1F1EA}\u{1F1F8}", country: t.partners_section.spain, org: "Assoc. Juvenil Ndiatiguia Joves Units", city: "Lleida", role: t.partners_section.coordinator },
@@ -79,6 +89,38 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </div>
       </section>
 
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">{t.gallery.title}</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+            {[
+              { src: "/images/photo-workshop-line.jpg", alt: "Workshop activity" },
+              { src: "/images/photo-workshop-smart.jpg", alt: "SMART objectives workshop" },
+              { src: "/images/photo-workshop-session.jpg", alt: "Workshop session" },
+              { src: "/images/photo-workshop-group.jpg", alt: "Group discussion" },
+              { src: "/images/photo-workshop-discussion.jpg", alt: "Team discussion" },
+              { src: "/images/photo-workshop-team.jpg", alt: "Working team" },
+              { src: "/images/photo-dinner.jpg", alt: "Intercultural dinner" },
+              { src: "/images/photo-riviera-audience.jpg", alt: "Riviera audience" },
+              { src: "/images/photo-riviera-presentation.jpg", alt: "Presentation" },
+              { src: "/images/photo-riviera-facilitator.jpg", alt: "Facilitator" },
+            ].map((photo) => (
+              <div key={photo.src} className="rounded-lg overflow-hidden aspect-square relative hover:scale-[1.03] transition-transform shadow-md">
+                <Image src={photo.src} alt={photo.alt} fill className="object-cover" sizes="(max-width: 768px) 50vw, 20vw" />
+              </div>
+            ))}
+          </div>
+          <div className="mt-12">
+            <h3 className="text-xl font-bold text-center mb-6">{t.gallery.video_title}</h3>
+            <div className="max-w-2xl mx-auto rounded-xl overflow-hidden shadow-lg">
+              <video controls className="w-full" preload="metadata" poster="/images/photo-riviera-facilitator.jpg">
+                <source src="/videos/cultural-bridges-exchange.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-12">{t.partners_section.title}</h2>
@@ -92,6 +134,22 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 <p className="text-text-light text-sm">{p.city}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="grid grid-cols-3 gap-4 md:gap-6">
+            <div className="rounded-xl overflow-hidden shadow-lg hover:scale-[1.02] transition-transform">
+              <Image src={posters.diversity} alt="Diversity is our strength" width={400} height={566} className="w-full h-auto" />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-lg hover:scale-[1.02] transition-transform">
+              <Image src={posters.stopRacism} alt="Stop racism, start listening" width={400} height={566} className="w-full h-auto" />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-lg hover:scale-[1.02] transition-transform">
+              <Image src={posters.bridges} alt="Build bridges, not walls" width={400} height={566} className="w-full h-auto" />
+            </div>
           </div>
         </div>
       </section>

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { locales, type Locale } from "@/i18n";
 
@@ -63,7 +64,14 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="font-bold text-lg mb-3">{t.programme}</h3>
-            <p className="text-sm text-blue-200">{t.programmeDesc}</p>
+            <p className="text-sm text-blue-200 mb-4">{t.programmeDesc}</p>
+            <Image
+              src="/images/eu-cofunded.jpg"
+              alt="Co-funded by the European Union"
+              width={240}
+              height={56}
+              className="bg-white rounded p-2"
+            />
           </div>
         </div>
         <div className="border-t border-blue-800 mt-8 pt-6 text-center text-sm text-blue-300">

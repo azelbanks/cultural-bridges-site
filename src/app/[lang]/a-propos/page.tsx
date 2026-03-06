@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getDictionary, type Locale } from "@/i18n";
 
 export default async function AProposPage({ params }: { params: Promise<{ lang: string }> }) {
@@ -119,6 +120,7 @@ export default async function AProposPage({ params }: { params: Promise<{ lang: 
 
       <section className="py-8 bg-white border-t border-border">
         <div className="max-w-4xl mx-auto px-4 text-center">
+          <Image src="/images/eu-cofunded.jpg" alt="Co-funded by the European Union" width={200} height={47} className="mx-auto mb-4" />
           <p className="text-xs text-text-light italic">{t.about_page.disclaimer}</p>
         </div>
       </section>

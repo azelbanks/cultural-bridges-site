@@ -14,7 +14,7 @@
     "cta_blog": "Lire le blog"
   },
   "stats": {
-    "participants": "Participants",
+    "youth_reached": "Jeunes touchés",
     "countries": "Pays partenaires",
     "months": "Mois de projet",
     "budget": "Budget total"
@@ -40,6 +40,10 @@
     "france": "France",
     "coordinator": "Coordinateur",
     "partner": "Partenaire"
+  },
+  "gallery": {
+    "title": "En images",
+    "video_title": "Vidéo de l'échange"
   },
   "cta": {
     "title": "Découvrez nos livrables",

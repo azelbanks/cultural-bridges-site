@@ -14,7 +14,7 @@
     "cta_blog": "Leer el blog"
   },
   "stats": {
-    "participants": "Participantes",
+    "youth_reached": "Jóvenes alcanzados",
     "countries": "Países socios",
     "months": "Meses de proyecto",
     "budget": "Presupuesto total"
@@ -40,6 +40,10 @@
     "france": "Francia",
     "coordinator": "Coordinador",
     "partner": "Socio"
+  },
+  "gallery": {
+    "title": "En imágenes",
+    "video_title": "Vídeo del intercambio"
   },
   "cta": {
     "title": "Descubre nuestros resultados",
