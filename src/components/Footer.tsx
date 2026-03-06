@@ -47,34 +47,34 @@ export default function Footer() {
 
   return (
     <footer className="bg-primary text-white mt-auto">
-      <div className="max-w-6xl mx-auto px-4 py-10">
-        <div className="grid md:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
           <div>
-            <h3 className="font-bold text-lg mb-3">Cultural Bridges</h3>
+            <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3">Cultural Bridges</h3>
             <p className="text-sm text-blue-200">{t.tagline}</p>
             <p className="text-sm text-blue-200 mt-2">{t.period}</p>
           </div>
           <div>
-            <h3 className="font-bold text-lg mb-3">{t.partners}</h3>
+            <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3">{t.partners}</h3>
             <ul className="text-sm text-blue-200 space-y-1">
               <li>Assoc. Juvenil Ndiatiguia Joves Units (ES)</li>
               <li>UGPA POLSKA (PL)</li>
               <li>Un Geste pour l&apos;Avenir (FR)</li>
             </ul>
           </div>
-          <div>
-            <h3 className="font-bold text-lg mb-3">{t.programme}</h3>
-            <p className="text-sm text-blue-200 mb-4">{t.programmeDesc}</p>
+          <div className="sm:col-span-2 md:col-span-1">
+            <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3">{t.programme}</h3>
+            <p className="text-sm text-blue-200 mb-3 sm:mb-4">{t.programmeDesc}</p>
             <Image
               src="/images/eu-cofunded.jpg"
               alt="Co-funded by the European Union"
-              width={240}
-              height={56}
+              width={200}
+              height={47}
               className="bg-white rounded p-2"
             />
           </div>
         </div>
-        <div className="border-t border-blue-800 mt-8 pt-6 text-center text-sm text-blue-300">
+        <div className="border-t border-blue-800 mt-6 sm:mt-8 pt-4 sm:pt-6 text-center text-xs sm:text-sm text-blue-300">
           &copy; {new Date().getFullYear()} {t.copyright}
         </div>
       </div>

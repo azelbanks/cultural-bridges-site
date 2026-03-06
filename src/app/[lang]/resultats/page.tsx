@@ -125,11 +125,6 @@ export default async function ResultatsPage({ params }: { params: Promise<{ lang
           desc: "",
           file: "/docs/Sustainability_Plan_CulturalBridges.pdf",
         },
-        {
-          name: lang === "fr" ? "Documentation financière" : lang === "es" ? "Documentación financiera" : lang === "pl" ? "Dokumentacja finansowa" : "Financial documentation",
-          desc: "",
-          file: "/docs/Annex_9_Financial_Documentation.pdf",
-        },
       ],
     },
   ];
@@ -138,51 +133,51 @@ export default async function ResultatsPage({ params }: { params: Promise<{ lang
 
   return (
     <>
-      <section className="gradient-hero text-white py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold mb-4">{t.results_page.title}</h1>
-          <p className="text-blue-200 text-lg">{t.results_page.subtitle}</p>
+      <section className="gradient-hero text-white py-10 sm:py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h1 className="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4">{t.results_page.title}</h1>
+          <p className="text-blue-200 text-base sm:text-lg">{t.results_page.subtitle}</p>
         </div>
       </section>
 
-      <section className="py-8 bg-gradient-to-r from-blue-50 to-indigo-50 border-b border-blue-100">
-        <div className="max-w-4xl mx-auto px-4">
+      <section className="py-6 sm:py-8 bg-gradient-to-r from-blue-50 to-indigo-50 border-b border-blue-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <Link
             href={`/${lang}/dashboard`}
-            className="flex items-center justify-between bg-white rounded-xl border border-blue-200 p-6 hover:shadow-lg transition-shadow group"
+            className="flex items-center justify-between bg-white rounded-xl border border-blue-200 p-4 sm:p-6 hover:shadow-lg transition-shadow group"
           >
-            <div>
-              <h3 className="text-lg font-bold text-primary">
+            <div className="min-w-0">
+              <h3 className="text-base sm:text-lg font-bold text-primary">
                 {lang === "fr" ? "Tableau de bord interactif" : lang === "es" ? "Panel interactivo" : lang === "pl" ? "Interaktywny panel" : "Interactive Dashboard"}
               </h3>
               <p className="text-text-light text-sm mt-1">
                 {lang === "fr" ? "Explorez les résultats des questionnaires avec des graphiques dynamiques" : lang === "es" ? "Explore los resultados de los cuestionarios con gráficos dinámicos" : lang === "pl" ? "Poznaj wyniki kwestionariuszy z dynamicznymi wykresami" : "Explore questionnaire results with dynamic charts"}
               </p>
             </div>
-            <svg className="w-6 h-6 text-primary group-hover:translate-x-1 transition-transform shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-5 h-5 sm:w-6 sm:h-6 text-primary group-hover:translate-x-1 transition-transform shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
           </Link>
         </div>
       </section>
 
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4 space-y-12">
+      <section className="py-10 sm:py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 space-y-8 sm:space-y-12">
           {categories.map((cat) => (
             <div key={cat.title}>
-              <h2 className="text-2xl font-bold mb-6 pb-2 border-b-2 border-primary">{cat.title}</h2>
-              <div className="space-y-4">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 pb-2 border-b-2 border-primary">{cat.title}</h2>
+              <div className="space-y-3 sm:space-y-4">
                 {cat.items.map((item) => (
-                  <div key={item.name} className="bg-white rounded-lg border border-border p-6 flex items-start gap-4 hover:shadow-md transition-shadow">
-                    <div className="shrink-0 w-12 h-12 bg-red-50 text-red-600 rounded-lg flex items-center justify-center font-bold text-xs">PDF</div>
+                  <div key={item.name} className="bg-white rounded-lg border border-border p-4 sm:p-6 flex flex-col sm:flex-row sm:items-start gap-3 sm:gap-4 hover:shadow-md transition-shadow">
+                    <div className="shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-red-50 text-red-600 rounded-lg flex items-center justify-center font-bold text-xs">PDF</div>
                     <div className="flex-1 min-w-0">
-                      <h3 className="font-bold text-lg">{item.name}</h3>
+                      <h3 className="font-bold text-base sm:text-lg">{item.name}</h3>
                       {item.desc && <p className="text-text-light text-sm mt-1">{item.desc}</p>}
                     </div>
                     <a
                       href={item.file}
                       download
-                      className="shrink-0 bg-primary text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-blue-800 transition-colors flex items-center gap-2"
+                      className="shrink-0 bg-primary text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-blue-800 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto"
                     >
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3M3 17v3a2 2 0 002 2h14a2 2 0 002-2v-3" />

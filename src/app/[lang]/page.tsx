@@ -42,44 +42,44 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
   return (
     <>
-      <section className="gradient-hero text-white py-24 md:py-32">
-        <div className="max-w-6xl mx-auto px-4 text-center">
-          <p className="text-accent font-semibold mb-4 tracking-wide uppercase text-sm">{t.hero.badge}</p>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">{t.hero.title}</h1>
-          <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto mb-4">{t.hero.subtitle}</p>
-          <p className="text-blue-200 italic mb-10 text-lg">&ldquo;{t.hero.quote}&rdquo;</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href={`/${lang}/resultats`} className="bg-accent text-primary-dark font-bold px-8 py-3 rounded-lg hover:bg-accent-dark transition-colors">{t.hero.cta_results}</Link>
-            <Link href={`/${lang}/blog`} className="border-2 border-white text-white font-bold px-8 py-3 rounded-lg hover:bg-white hover:text-primary transition-colors">{t.hero.cta_blog}</Link>
+      <section className="gradient-hero text-white py-16 sm:py-24 md:py-32">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+          <p className="text-accent font-semibold mb-3 sm:mb-4 tracking-wide uppercase text-xs sm:text-sm">{t.hero.badge}</p>
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 leading-tight">{t.hero.title}</h1>
+          <p className="text-lg sm:text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto mb-3 sm:mb-4">{t.hero.subtitle}</p>
+          <p className="text-blue-200 italic mb-8 sm:mb-10 text-base sm:text-lg">&ldquo;{t.hero.quote}&rdquo;</p>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+            <Link href={`/${lang}/resultats`} className="bg-accent text-primary-dark font-bold px-6 sm:px-8 py-3 rounded-lg hover:bg-accent-dark transition-colors text-sm sm:text-base">{t.hero.cta_results}</Link>
+            <Link href={`/${lang}/blog`} className="border-2 border-white text-white font-bold px-6 sm:px-8 py-3 rounded-lg hover:bg-white hover:text-primary transition-colors text-sm sm:text-base">{t.hero.cta_blog}</Link>
           </div>
         </div>
       </section>
 
-      <section className="py-12 bg-white border-b border-border">
-        <div className="max-w-4xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <section className="py-8 sm:py-12 bg-white border-b border-border">
+        <div className="max-w-4xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
           {stats.map((s) => (
             <div key={s.label}>
-              <p className="text-3xl md:text-4xl font-bold text-primary">{s.value}</p>
-              <p className="text-text-light text-sm mt-1">{s.label}</p>
+              <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary">{s.value}</p>
+              <p className="text-text-light text-xs sm:text-sm mt-1">{s.label}</p>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-6">{t.project.title}</h2>
+      <section className="py-12 sm:py-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4 sm:mb-6">{t.project.title}</h2>
           <p className="text-text-light text-center max-w-2xl mx-auto mb-6 leading-relaxed" dangerouslySetInnerHTML={{ __html: t.project.desc1 }} />
           <p className="text-text-light text-center max-w-2xl mx-auto leading-relaxed">{t.project.desc2}</p>
         </div>
       </section>
 
-      <section className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">{t.approach.title}</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+      <section className="py-12 sm:py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12">{t.approach.title}</h2>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             {pillars.map((p) => (
-              <div key={p.title} className="border border-border rounded-xl p-8 hover:shadow-lg transition-shadow">
+              <div key={p.title} className="border border-border rounded-xl p-6 sm:p-8 hover:shadow-lg transition-shadow">
                 <div className="w-14 h-14 bg-blue-50 text-primary rounded-lg flex items-center justify-center mb-4">{p.icon}</div>
                 <h3 className="text-xl font-bold mb-3">{p.title}</h3>
                 <p className="text-text-light leading-relaxed">{p.desc}</p>
@@ -89,10 +89,10 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </div>
       </section>
 
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">{t.gallery.title}</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+      <section className="py-12 sm:py-20 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12">{t.gallery.title}</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-3">
             {[
               { src: "/images/photo-workshop-line.jpg", alt: "Workshop activity" },
               { src: "/images/photo-workshop-smart.jpg", alt: "SMART objectives workshop" },
@@ -122,19 +122,19 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </div>
           <div className="mt-12">
             <h3 className="text-xl font-bold text-center mb-6">{t.gallery.video_title}</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
               <div className="rounded-xl overflow-hidden shadow-lg">
-                <video controls className="w-full max-h-[300px]" preload="metadata" poster="/images/photo-riviera-facilitator.jpg">
+                <video controls className="w-full max-h-[400px] sm:max-h-[300px]" preload="metadata" poster="/images/photo-riviera-facilitator.jpg">
                   <source src="/videos/cultural-bridges-exchange.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg">
-                <video controls className="w-full max-h-[300px]" preload="metadata" poster="/images/photo-gallery-visit.jpg">
+                <video controls className="w-full max-h-[400px] sm:max-h-[300px]" preload="metadata" poster="/images/photo-gallery-visit.jpg">
                   <source src="/videos/gallery-visit.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg">
-                <video controls className="w-full max-h-[300px]" preload="metadata" poster="/images/photo-riviera-wide.jpg">
+                <video controls className="w-full max-h-[400px] sm:max-h-[300px]" preload="metadata" poster="/images/photo-riviera-wide.jpg">
                   <source src="/videos/workshop-warsaw.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -143,13 +143,13 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-12">{t.partners_section.title}</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+      <section className="py-12 sm:py-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12">{t.partners_section.title}</h2>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             {partnersData.map((p) => (
-              <div key={p.country} className="bg-white rounded-xl border border-border p-6">
-                <span className="text-5xl mb-4 block">{p.flag}</span>
+              <div key={p.country} className="bg-white rounded-xl border border-border p-5 sm:p-6">
+                <span className="text-4xl sm:text-5xl mb-3 sm:mb-4 block">{p.flag}</span>
                 <h3 className="text-xl font-bold">{p.country}</h3>
                 <p className="text-primary font-medium text-sm mt-1">{p.role}</p>
                 <p className="text-text-light mt-2 text-sm">{p.org}</p>
@@ -160,9 +160,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </div>
       </section>
 
-      <section className="py-16 bg-gray-900">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="grid grid-cols-3 gap-4 md:gap-6">
+      <section className="py-10 sm:py-16 bg-gray-900">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-3 gap-2 sm:gap-4 md:gap-6">
             <div className="rounded-xl overflow-hidden shadow-lg hover:scale-[1.02] transition-transform">
               <Image src={posters.diversity} alt="Diversity is our strength" width={400} height={566} className="w-full h-auto" />
             </div>
@@ -176,11 +176,11 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </div>
       </section>
 
-      <section className="gradient-hero text-white py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">{t.cta.title}</h2>
-          <p className="text-blue-200 mb-8 text-lg">{t.cta.desc}</p>
-          <Link href={`/${lang}/resultats`} className="bg-accent text-primary-dark font-bold px-8 py-3 rounded-lg hover:bg-accent-dark transition-colors inline-block">{t.cta.button}</Link>
+      <section className="gradient-hero text-white py-12 sm:py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">{t.cta.title}</h2>
+          <p className="text-blue-200 mb-6 sm:mb-8 text-base sm:text-lg">{t.cta.desc}</p>
+          <Link href={`/${lang}/resultats`} className="bg-accent text-primary-dark font-bold px-6 sm:px-8 py-3 rounded-lg hover:bg-accent-dark transition-colors inline-block text-sm sm:text-base">{t.cta.button}</Link>
         </div>
       </section>
     </>

@@ -2,13 +2,24 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { locales, localeFlags, localeNames, type Locale } from "@/i18n";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const pathname = usePathname();
+  const langRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (langRef.current && !langRef.current.contains(e.target as Node)) setLangOpen(false);
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+
+  useEffect(() => { setOpen(false); setLangOpen(false); }, [pathname]);
 
   const segments = pathname.split("/").filter(Boolean);
   const currentLang = (locales.includes(segments[0] as Locale) ? segments[0] : "fr") as Locale;
@@ -32,18 +43,18 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white border-b border-border sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
-        <Link href={`/${currentLang}`} className="font-bold text-xl text-primary">
+      <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-14 sm:h-16">
+        <Link href={`/${currentLang}`} className="font-bold text-lg sm:text-xl text-primary shrink-0">
           Cultural Bridges
         </Link>
 
         {/* Desktop */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-4 xl:gap-6">
           {links.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className={`font-medium transition-colors ${
+              className={`font-medium transition-colors text-sm xl:text-base whitespace-nowrap ${
                 pathname === l.href ? "text-primary" : "text-text-light hover:text-primary"
               }`}
             >
@@ -52,7 +63,7 @@ export default function Navbar() {
           ))}
 
           {/* Language switcher */}
-          <div className="relative">
+          <div className="relative" ref={langRef}>
             <button
               onClick={() => setLangOpen(!langOpen)}
               className="flex items-center gap-1 text-sm font-medium text-text-light hover:text-primary px-2 py-1 rounded border border-border"
@@ -82,7 +93,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile toggle */}
-        <button className="md:hidden p-2" onClick={() => setOpen(!open)} aria-label="Menu">
+        <button className="lg:hidden p-2 -mr-2" onClick={() => setOpen(!open)} aria-label="Menu">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             {open ? (
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -95,7 +106,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden border-t border-border bg-white px-4 pb-4">
+        <div className="lg:hidden border-t border-border bg-white px-4 pb-4 max-h-[80vh] overflow-y-auto">
           {links.map((l) => (
             <Link
               key={l.href}
@@ -106,7 +117,7 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
-          <div className="flex gap-2 pt-3 border-t border-border mt-2">
+          <div className="flex flex-wrap gap-2 pt-3 border-t border-border mt-2">
             {locales.map((locale) => (
               <Link
                 key={locale}

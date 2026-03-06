@@ -116,15 +116,15 @@ export default async function DashboardPage({ params }: { params: Promise<{ lang
 
   return (
     <>
-      <section className="gradient-hero text-white py-16">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">{t.title}</h1>
-          <p className="text-blue-200 text-lg">{t.subtitle}</p>
+      <section className="gradient-hero text-white py-10 sm:py-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">{t.title}</h1>
+          <p className="text-blue-200 text-sm sm:text-base md:text-lg">{t.subtitle}</p>
         </div>
       </section>
 
-      <section className="py-12">
-        <div className="max-w-6xl mx-auto px-4">
+      <section className="py-8 sm:py-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <DashboardCharts t={t as any} />
         </div>
       </section>

@@ -191,136 +191,136 @@ export default function DashboardCharts({ t }: { t: DashboardTexts }) {
   return (
     <>
       {/* KPI Cards */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-        <div className="bg-white rounded-xl border border-border p-6 text-center shadow-sm">
-          <p className="text-4xl font-bold text-green-600">+31.1%</p>
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-8 sm:mb-12">
+        <div className="bg-white rounded-xl border border-border p-4 sm:p-6 text-center shadow-sm">
+          <p className="text-2xl sm:text-4xl font-bold text-green-600">+31.1%</p>
           <p className="text-xs text-text-light mt-1">3.22 → 4.22</p>
-          <p className="text-sm font-semibold mt-2">{t.kpi_improvement}</p>
+          <p className="text-xs sm:text-sm font-semibold mt-1 sm:mt-2">{t.kpi_improvement}</p>
         </div>
-        <div className="bg-white rounded-xl border border-border p-6 text-center shadow-sm">
-          <p className="text-4xl font-bold text-primary">8.6<span className="text-lg text-text-light">/10</span></p>
+        <div className="bg-white rounded-xl border border-border p-4 sm:p-6 text-center shadow-sm">
+          <p className="text-2xl sm:text-4xl font-bold text-primary">8.6<span className="text-sm sm:text-lg text-text-light">/10</span></p>
           <p className="text-xs text-text-light mt-1">83% rated 8+</p>
-          <p className="text-sm font-semibold mt-2">{t.kpi_quality}</p>
+          <p className="text-xs sm:text-sm font-semibold mt-1 sm:mt-2">{t.kpi_quality}</p>
         </div>
-        <div className="bg-white rounded-xl border border-border p-6 text-center shadow-sm">
-          <p className="text-4xl font-bold text-teal-600">+37.6%</p>
+        <div className="bg-white rounded-xl border border-border p-4 sm:p-6 text-center shadow-sm">
+          <p className="text-2xl sm:text-4xl font-bold text-teal-600">+37.6%</p>
           <p className="text-xs text-text-light mt-1">5.67 → 7.80 /10</p>
-          <p className="text-sm font-semibold mt-2">{t.kpi_competence}</p>
+          <p className="text-xs sm:text-sm font-semibold mt-1 sm:mt-2">{t.kpi_competence}</p>
         </div>
-        <div className="bg-white rounded-xl border border-border p-6 text-center shadow-sm">
-          <p className="text-4xl font-bold text-orange-500">97%</p>
+        <div className="bg-white rounded-xl border border-border p-4 sm:p-6 text-center shadow-sm">
+          <p className="text-2xl sm:text-4xl font-bold text-orange-500">97%</p>
           <p className="text-xs text-text-light mt-1">4.77 / 5.00</p>
-          <p className="text-sm font-semibold mt-2">{t.kpi_recommend}</p>
+          <p className="text-xs sm:text-sm font-semibold mt-1 sm:mt-2">{t.kpi_recommend}</p>
         </div>
       </div>
 
       {/* Self-Assessment Evolution */}
-      <div className="bg-white rounded-xl border border-border p-8 mb-8 shadow-sm">
-        <h3 className="text-xl font-bold mb-6">{t.section_self}</h3>
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-          <div className="text-center">
-            <div className="w-28 h-28 rounded-full border-[6px] border-gray-300 flex items-center justify-center mx-auto">
+      <div className="bg-white rounded-xl border border-border p-5 sm:p-8 mb-6 sm:mb-8 shadow-sm">
+        <h3 className="text-lg sm:text-xl font-bold mb-4 sm:mb-6">{t.section_self}</h3>
+        <div className="flex flex-row items-center justify-center gap-3 sm:gap-6">
+          <div className="text-center flex-1 sm:flex-none">
+            <div className="w-20 h-20 sm:w-28 sm:h-28 rounded-full border-4 sm:border-[6px] border-gray-300 flex items-center justify-center mx-auto">
               <div>
-                <p className="text-3xl font-bold text-gray-500">5.7</p>
-                <p className="text-xs text-text-light">/10</p>
+                <p className="text-xl sm:text-3xl font-bold text-gray-500">5.7</p>
+                <p className="text-[10px] sm:text-xs text-text-light">/10</p>
               </div>
             </div>
-            <p className="text-sm mt-2 font-medium">PRE</p>
+            <p className="text-xs sm:text-sm mt-1 sm:mt-2 font-medium">PRE</p>
           </div>
-          <svg className="w-8 h-8 text-text-light hidden md:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-5 h-5 sm:w-8 sm:h-8 text-text-light shrink-0 hidden sm:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
-          <div className="text-center">
-            <div className="w-28 h-28 rounded-full border-[6px] border-primary flex items-center justify-center mx-auto">
+          <div className="text-center flex-1 sm:flex-none">
+            <div className="w-20 h-20 sm:w-28 sm:h-28 rounded-full border-4 sm:border-[6px] border-primary flex items-center justify-center mx-auto">
               <div>
-                <p className="text-3xl font-bold text-primary">7.8</p>
-                <p className="text-xs text-text-light">/10</p>
+                <p className="text-xl sm:text-3xl font-bold text-primary">7.8</p>
+                <p className="text-[10px] sm:text-xs text-text-light">/10</p>
               </div>
             </div>
-            <p className="text-sm mt-2 font-medium">POST</p>
+            <p className="text-xs sm:text-sm mt-1 sm:mt-2 font-medium">POST</p>
           </div>
-          <svg className="w-8 h-8 text-text-light hidden md:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-5 h-5 sm:w-8 sm:h-8 text-text-light shrink-0 hidden sm:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
-          <div className="text-center">
-            <div className="w-28 h-28 rounded-full border-[6px] border-orange-400 flex items-center justify-center mx-auto">
+          <div className="text-center flex-1 sm:flex-none">
+            <div className="w-20 h-20 sm:w-28 sm:h-28 rounded-full border-4 sm:border-[6px] border-orange-400 flex items-center justify-center mx-auto">
               <div>
-                <p className="text-3xl font-bold text-orange-500">8.6</p>
-                <p className="text-xs text-text-light">/10</p>
+                <p className="text-xl sm:text-3xl font-bold text-orange-500">8.6</p>
+                <p className="text-[10px] sm:text-xs text-text-light">/10</p>
               </div>
             </div>
-            <p className="text-sm mt-2 font-medium">Quality rating</p>
+            <p className="text-xs sm:text-sm mt-1 sm:mt-2 font-medium">Quality</p>
           </div>
         </div>
       </div>
 
       {/* Pre vs Post Sections */}
-      <div className="grid md:grid-cols-2 gap-8 mb-8">
-        <div className="bg-white rounded-xl border border-border p-8 shadow-sm">
-          <h3 className="text-xl font-bold mb-4">{t.section_pre_post}</h3>
-          <div className="h-[280px]">
+      <div className="grid md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 mb-6 sm:mb-8">
+        <div className="bg-white rounded-xl border border-border p-4 sm:p-6 md:p-8 shadow-sm">
+          <h3 className="text-base sm:text-xl font-bold mb-3 sm:mb-4">{t.section_pre_post}</h3>
+          <div className="h-[220px] sm:h-[280px]">
             <Bar data={prePostSectionData} options={barOptions} />
           </div>
         </div>
 
-        <div className="bg-white rounded-xl border border-border p-8 shadow-sm">
-          <h3 className="text-xl font-bold mb-4">{t.section_top5}</h3>
-          <div className="h-[280px]">
+        <div className="bg-white rounded-xl border border-border p-4 sm:p-6 md:p-8 shadow-sm">
+          <h3 className="text-base sm:text-xl font-bold mb-3 sm:mb-4">{t.section_top5}</h3>
+          <div className="h-[220px] sm:h-[280px]">
             <Bar data={top5Data} options={barOptions} />
           </div>
         </div>
       </div>
 
       {/* Country Evolution + Satisfaction */}
-      <div className="grid md:grid-cols-2 gap-8 mb-8">
-        <div className="bg-white rounded-xl border border-border p-8 shadow-sm">
-          <h3 className="text-xl font-bold mb-4">{t.section_country}</h3>
-          <div className="h-[260px]">
+      <div className="grid md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 mb-6 sm:mb-8">
+        <div className="bg-white rounded-xl border border-border p-4 sm:p-6 md:p-8 shadow-sm">
+          <h3 className="text-base sm:text-xl font-bold mb-3 sm:mb-4">{t.section_country}</h3>
+          <div className="h-[220px] sm:h-[260px]">
             <Bar data={countryData} options={countryBarOptions} />
           </div>
         </div>
 
-        <div className="bg-white rounded-xl border border-border p-8 shadow-sm">
-          <h3 className="text-xl font-bold mb-4">{t.section_satisfaction}</h3>
-          <div className="h-[260px]">
+        <div className="bg-white rounded-xl border border-border p-4 sm:p-6 md:p-8 shadow-sm">
+          <h3 className="text-base sm:text-xl font-bold mb-3 sm:mb-4">{t.section_satisfaction}</h3>
+          <div className="h-[220px] sm:h-[260px]">
             <Bar data={satisfactionData} options={satisfactionOptions} />
           </div>
         </div>
       </div>
 
       {/* Participant Profile */}
-      <div className="bg-white rounded-xl border border-border p-8 mb-8 shadow-sm">
-        <h3 className="text-xl font-bold mb-6">{t.section_profile}</h3>
-        <div className="grid md:grid-cols-3 gap-8">
+      <div className="bg-white rounded-xl border border-border p-4 sm:p-6 md:p-8 mb-6 sm:mb-8 shadow-sm">
+        <h3 className="text-base sm:text-xl font-bold mb-4 sm:mb-6">{t.section_profile}</h3>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8">
           <div>
-            <h4 className="text-sm font-semibold mb-3 text-text-light">{t.gender}</h4>
-            <div className="h-[200px]">
+            <h4 className="text-xs sm:text-sm font-semibold mb-2 sm:mb-3 text-text-light">{t.gender}</h4>
+            <div className="h-[160px] sm:h-[200px]">
               <Doughnut data={genderData} options={doughnutOptions} />
             </div>
           </div>
           <div>
-            <h4 className="text-sm font-semibold mb-3 text-text-light">{t.age}</h4>
-            <div className="h-[200px]">
+            <h4 className="text-xs sm:text-sm font-semibold mb-2 sm:mb-3 text-text-light">{t.age}</h4>
+            <div className="h-[160px] sm:h-[200px]">
               <Doughnut data={ageData} options={doughnutOptions} />
             </div>
           </div>
-          <div className="flex flex-col justify-center gap-4">
-            <div className="bg-gray-50 rounded-lg p-4 text-center">
-              <p className="text-3xl font-bold text-primary">23.1</p>
-              <p className="text-sm text-text-light">{t.mean_age}</p>
+          <div className="col-span-2 md:col-span-1 grid grid-cols-2 md:grid-cols-1 gap-3 sm:gap-4">
+            <div className="bg-gray-50 rounded-lg p-3 sm:p-4 text-center">
+              <p className="text-2xl sm:text-3xl font-bold text-primary">23.1</p>
+              <p className="text-xs sm:text-sm text-text-light">{t.mean_age}</p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-4 text-center">
-              <p className="text-3xl font-bold text-teal-600">70%</p>
-              <p className="text-sm text-text-light">{t.first_erasmus}</p>
+            <div className="bg-gray-50 rounded-lg p-3 sm:p-4 text-center">
+              <p className="text-2xl sm:text-3xl font-bold text-teal-600">70%</p>
+              <p className="text-xs sm:text-sm text-text-light">{t.first_erasmus}</p>
             </div>
           </div>
         </div>
       </div>
 
       {/* Future Intentions */}
-      <div className="bg-white rounded-xl border border-border p-8 mb-8 shadow-sm">
-        <h3 className="text-xl font-bold mb-6">{t.section_future}</h3>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+      <div className="bg-white rounded-xl border border-border p-4 sm:p-6 md:p-8 mb-6 sm:mb-8 shadow-sm">
+        <h3 className="text-base sm:text-xl font-bold mb-4 sm:mb-6">{t.section_future}</h3>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
           {[
             { value: "4.77", label: "Would recommend" },
             { value: "4.63", label: "Stay in contact internationally" },
@@ -328,9 +328,9 @@ export default function DashboardCharts({ t }: { t: DashboardTexts }) {
             { value: "4.17", label: "Share learnings with community" },
             { value: "4.07", label: "Take action for intercultural dialogue" },
           ].map((item) => (
-            <div key={item.label} className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-4 text-center">
-              <p className="text-2xl md:text-3xl font-bold text-primary">{item.value}</p>
-              <p className="text-xs text-text-light mt-1 leading-tight">{item.label}</p>
+            <div key={item.label} className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-3 sm:p-4 text-center">
+              <p className="text-xl sm:text-2xl md:text-3xl font-bold text-primary">{item.value}</p>
+              <p className="text-[10px] sm:text-xs text-text-light mt-1 leading-tight">{item.label}</p>
             </div>
           ))}
         </div>

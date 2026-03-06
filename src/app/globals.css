@@ -23,3 +23,29 @@ body {
 .gradient-hero {
   background: linear-gradient(135deg, #003399 0%, #0055aa 50%, #003399 100%);
 }
+
+/* Prevent horizontal overflow on mobile */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Better touch targets on mobile */
+@media (max-width: 640px) {
+  a, button {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+/* Responsive images */
+img, video {
+  max-width: 100%;
+  height: auto;
+}

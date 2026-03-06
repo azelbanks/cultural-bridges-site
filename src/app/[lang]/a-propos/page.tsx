@@ -6,9 +6,9 @@ export default async function AProposPage({ params }: { params: Promise<{ lang: 
   const t = await getDictionary(lang as Locale);
 
   const partners = [
-    { name: "Associacio Juvenil Ndiatiguia Joves Units", role: t.partners_section.coordinator, country: t.partners_section.spain, city: "Lleida", flag: "\u{1F1EA}\u{1F1F8}", desc: t.about_partners.org1_desc },
-    { name: "UGPA POLSKA", role: t.partners_section.partner, country: t.partners_section.poland, city: "Warsaw", flag: "\u{1F1F5}\u{1F1F1}", desc: t.about_partners.org2_desc },
-    { name: "Un Geste pour l'Avenir", role: t.partners_section.partner, country: t.partners_section.france, city: "Boissy-Saint-Leger", flag: "\u{1F1EB}\u{1F1F7}", desc: t.about_partners.org3_desc },
+    { name: "Associacio Juvenil Ndiatiguia Joves Units", role: t.partners_section.coordinator, country: t.partners_section.spain, city: "Lleida", flag: "\u{1F1EA}\u{1F1F8}", desc: t.about_partners.org1_desc, contact: "Nogay Ndiaye i Mir", contactRole: lang === "fr" ? "Présidente" : lang === "es" ? "Presidenta" : lang === "pl" ? "Przewodnicząca" : "President", email: "ndiatiguia@gmail.com", website: "www.ndiatiguia.cat" },
+    { name: "UGPA POLSKA", role: t.partners_section.partner, country: t.partners_section.poland, city: "Warsaw", flag: "\u{1F1F5}\u{1F1F1}", desc: t.about_partners.org2_desc, contact: "Adam Djato", contactRole: lang === "fr" ? "Président" : lang === "es" ? "Presidente" : lang === "pl" ? "Prezes" : "President", email: "ugpatogo@gmail.com", website: "www.ugpa.pl" },
+    { name: "Un Geste pour l'Avenir", role: t.partners_section.partner, country: t.partners_section.france, city: "Boissy-Saint-Leger", flag: "\u{1F1EB}\u{1F1F7}", desc: t.about_partners.org3_desc, contact: "Apelete Amuzou", contactRole: lang === "fr" ? "Président" : lang === "es" ? "Presidente" : lang === "pl" ? "Prezes" : "President", email: "Amuzou.apelete@orange.fr", website: "www.ugpa.org" },
   ];
 
   const timeline = [
@@ -36,38 +36,38 @@ export default async function AProposPage({ params }: { params: Promise<{ lang: 
 
   return (
     <>
-      <section className="gradient-hero text-white py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold mb-4">{t.about_page.title}</h1>
-          <p className="text-blue-200 text-lg">{t.about_page.subtitle}</p>
+      <section className="gradient-hero text-white py-10 sm:py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h1 className="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4">{t.about_page.title}</h1>
+          <p className="text-blue-200 text-base sm:text-lg">{t.about_page.subtitle}</p>
         </div>
       </section>
 
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="bg-white rounded-xl border border-border p-8 mb-12">
-            <h2 className="text-2xl font-bold mb-6">{t.about_page.project_card}</h2>
-            <div className="grid md:grid-cols-2 gap-4">
+      <section className="py-10 sm:py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <div className="bg-white rounded-xl border border-border p-5 sm:p-8 mb-8 sm:mb-12">
+            <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">{t.about_page.project_card}</h2>
+            <div className="grid sm:grid-cols-2 gap-3 sm:gap-4">
               {fields.map(([label, value]) => (
-                <div key={label} className="flex gap-2">
-                  <span className="font-semibold text-primary min-w-[140px]">{label} :</span>
-                  <span className="text-text-light">{value}</span>
+                <div key={label} className="flex flex-col sm:flex-row sm:gap-2">
+                  <span className="font-semibold text-primary sm:min-w-[140px] text-sm sm:text-base">{label} :</span>
+                  <span className="text-text-light text-sm sm:text-base">{value}</span>
                 </div>
               ))}
             </div>
           </div>
 
-          <div className="mb-16">
-            <h2 className="text-2xl font-bold mb-4">{t.about_page.challenge_title}</h2>
+          <div className="mb-10 sm:mb-16">
+            <h2 className="text-xl sm:text-2xl font-bold mb-4">{t.about_page.challenge_title}</h2>
             <p className="text-text-light leading-relaxed mb-4">{t.about_page.challenge_p1}</p>
             <p className="text-text-light leading-relaxed" dangerouslySetInnerHTML={{ __html: t.about_page.challenge_p2 }} />
           </div>
 
-          <div className="mb-16">
-            <h2 className="text-2xl font-bold mb-6">{t.about_page.objectives_title}</h2>
-            <div className="space-y-4">
+          <div className="mb-10 sm:mb-16">
+            <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">{t.about_page.objectives_title}</h2>
+            <div className="space-y-3 sm:space-y-4">
               {objectives.map((obj) => (
-                <div key={obj.title} className="bg-blue-50 rounded-lg p-6">
+                <div key={obj.title} className="bg-blue-50 rounded-lg p-4 sm:p-6">
                   <h3 className="font-bold text-primary mb-2">{obj.title}</h3>
                   <p className="text-text-light text-sm">{obj.desc}</p>
                 </div>
@@ -77,18 +77,23 @@ export default async function AProposPage({ params }: { params: Promise<{ lang: 
         </div>
       </section>
 
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8 text-center">{t.about_page.partners_title}</h2>
-          <div className="space-y-6">
+      <section className="py-10 sm:py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-8 text-center">{t.about_page.partners_title}</h2>
+          <div className="space-y-4 sm:space-y-6">
             {partners.map((p) => (
-              <div key={p.name} className="border border-border rounded-xl p-8">
-                <div className="flex items-start gap-4">
-                  <span className="text-4xl">{p.flag}</span>
-                  <div>
-                    <h3 className="text-xl font-bold">{p.name}</h3>
+              <div key={p.name} className="border border-border rounded-xl p-5 sm:p-8">
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <span className="text-3xl sm:text-4xl">{p.flag}</span>
+                  <div className="min-w-0">
+                    <h3 className="text-lg sm:text-xl font-bold">{p.name}</h3>
                     <p className="text-primary font-medium text-sm">{p.role} - {p.city}, {p.country}</p>
                     <p className="text-text-light mt-3 leading-relaxed">{p.desc}</p>
+                    <div className="mt-3 pt-3 border-t border-border/50 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-text-light">
+                      <span>{p.contact}, {p.contactRole}</span>
+                      <a href={`mailto:${p.email}`} className="hover:text-primary transition-colors">{p.email}</a>
+                      <a href={`https://${p.website}`} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{p.website}</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -97,12 +102,12 @@ export default async function AProposPage({ params }: { params: Promise<{ lang: 
         </div>
       </section>
 
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8 text-center">{t.about_page.timeline_title}</h2>
+      <section className="py-10 sm:py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-8 text-center">{t.about_page.timeline_title}</h2>
           <div className="space-y-0">
             {timeline.map((item, i) => (
-              <div key={item.date} className="flex gap-6">
+              <div key={item.date} className="flex gap-4 sm:gap-6">
                 <div className="flex flex-col items-center">
                   <div className="w-4 h-4 bg-primary rounded-full shrink-0 mt-1" />
                   {i < timeline.length - 1 && <div className="w-0.5 bg-border flex-1 my-1" />}
