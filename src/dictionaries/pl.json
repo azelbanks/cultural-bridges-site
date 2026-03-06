@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "Strona glowna",
+    "home": "Strona główna",
     "results": "Wyniki",
     "blog": "Blog",
     "about": "O projekcie"
@@ -8,30 +8,30 @@
   "hero": {
     "badge": "Erasmus+ KA210-YOU",
     "title": "Cultural Bridges",
-    "subtitle": "Wzmacnianie miedzykulturowosci i wlaczenia spolecznego wsrod mlodziezy",
-    "quote": "Budowanie mostow miedzy kulturami, burzenie murow miedzy ludzmi.",
+    "subtitle": "Wzmacnianie międzykulturowości i włączenia społecznego wśród młodzieży",
+    "quote": "Budowanie mostów między kulturami, burzenie murów między ludźmi.",
     "cta_results": "Zobacz wyniki",
     "cta_blog": "Czytaj blog"
   },
   "stats": {
     "participants": "Uczestnicy",
     "countries": "Kraje partnerskie",
-    "months": "Miesiace projektu",
-    "budget": "Calkowity budzet"
+    "months": "Miesiące projektu",
+    "budget": "Całkowity budżet"
   },
   "project": {
     "title": "Projekt",
-    "desc1": "<strong>Cultural Bridges (CCIY)</strong> to partnerstwo Erasmus+ KA210-YOU laczace trzy organizacje mlodziezowe z Hiszpanii, Polski i Francji w celu wspierania zrozumienia miedzykulturowego, zwalczania dyskryminacji i promowania wlaczenia spolecznego wsrod mlodych Europejczykow.",
-    "desc2": "Przez 18 miesiecy (grudzien 2024 - maj 2026) projekt tworzy przestrzenie, w ktorych mlodzi ludzie z roznych srodowisk ucza sie od siebie nawzajem, kwestionuja stereotypy i buduja trwale polaczenia ponad granicami."
+    "desc1": "<strong>Cultural Bridges (CCIY)</strong> to partnerstwo Erasmus+ KA210-YOU łączące trzy organizacje młodzieżowe z Hiszpanii, Polski i Francji w celu wspierania zrozumienia międzykulturowego, zwalczania dyskryminacji i promowania włączenia społecznego wśród młodych Europejczyków.",
+    "desc2": "Przez 18 miesięcy (grudzień 2024 – maj 2026) projekt tworzy przestrzenie, w których młodzi ludzie z różnych środowisk uczą się od siebie nawzajem, kwestionują stereotypy i budują trwałe połączenia ponad granicami."
   },
   "approach": {
-    "title": "Nasze Podejscie",
+    "title": "Nasze Podejście",
     "pillar1_title": "Edukacja Pozaformalna",
-    "pillar1_desc": "Interaktywne warsztaty, wzajemne uczenie sie i ekspresja tworcza w celu budowania kompetencji miedzykulturowych poza klasa.",
-    "pillar2_title": "Immersja Miedzykulturowa",
-    "pillar2_desc": "Bezposrednie doswiadczenia wymiany w trzech krajach, stawiajace mlodych ludzi twarzа w twarz z roznymi kulturami, tradycjami i perspektywami.",
-    "pillar3_title": "Wzmacnianie Mlodziezy",
-    "pillar3_desc": "Wyposaienie uczestnikow w umiejetnosci, pewnosc siebie i sieci kontaktow, aby stali sie aktywnymi agentami wlaczenia w swoich spolecznosciach."
+    "pillar1_desc": "Interaktywne warsztaty, wzajemne uczenie się i ekspresja twórcza w celu budowania kompetencji międzykulturowych poza klasą.",
+    "pillar2_title": "Immersja Międzykulturowa",
+    "pillar2_desc": "Bezpośrednie doświadczenia wymiany w trzech krajach, stawiające młodych ludzi twarzą w twarz z różnymi kulturami, tradycjami i perspektywami.",
+    "pillar3_title": "Wzmacnianie Młodzieży",
+    "pillar3_desc": "Wyposażenie uczestników w umiejętności, pewność siebie i sieci kontaktów, aby stali się aktywnymi agentami włączenia w swoich społecznościach."
   },
   "partners_section": {
     "title": "Kraje Partnerskie",
@@ -43,97 +43,97 @@
   },
   "cta": {
     "title": "Odkryj nasze rezultaty",
-    "desc": "Raporty z dzialan, przewodniki pedagogiczne, broszury i wiele wiecej.",
-    "button": "Przegladaj wyniki"
+    "desc": "Raporty z działań, przewodniki pedagogiczne, broszury i wiele więcej.",
+    "button": "Przeglądaj wyniki"
   },
   "blog_page": {
-    "title": "Blog i Artykuly",
-    "subtitle": "Komunikaty prasowe, swiadectwa i artykuly opiniotworcze z projektu Cultural Bridges",
-    "read_more": "Czytaj caly artykul"
+    "title": "Blog i Artykuły",
+    "subtitle": "Komunikaty prasowe, świadectwa i artykuły opiniotwórcze z projektu Cultural Bridges",
+    "read_more": "Czytaj cały artykuł"
   },
   "results_page": {
     "title": "Wyniki i Rezultaty",
     "subtitle": "Wszystkie dokumenty i produkty projektu Cultural Bridges",
-    "note": "Wszystkie dokumenty sa dostepne w formacie PDF. Aby uzyskac wiecej informacji, skontaktuj sie z jednym z partnerow projektu.",
-    "cat1": "Raporty z dzialan",
+    "note": "Wszystkie dokumenty są dostępne w formacie PDF. Aby uzyskać więcej informacji, skontaktuj się z jednym z partnerów projektu.",
+    "cat1": "Raporty z działań",
     "cat2": "Kwestionariusze i Analizy",
-    "cat3": "Propozycje projektow uczestnikow",
+    "cat3": "Propozycje projektów uczestników",
     "cat4": "Publikacje i Przewodniki",
-    "cat5": "Dokumenty zarzadcze"
+    "cat5": "Dokumenty zarządcze"
   },
   "about_page": {
     "title": "O projekcie",
-    "subtitle": "Cultural Bridges: Wzmacnianie miedzykulturowosci i wlaczenia spolecznego wsrod mlodziezy",
+    "subtitle": "Cultural Bridges: Wzmacnianie międzykulturowości i włączenia społecznego wśród młodzieży",
     "project_card": "Karta projektu",
-    "challenge_title": "Wyzwanie, ktoremu stawiamy czola",
-    "challenge_p1": "W calej Europie mlodzi ludzie nadal napotykaja bariery zakorzenione w rasizmie, dyskryminacji i wykluczeniu spolecznym. Mlodzi migranci i mniejszosci sa dotknieci w sposob nieproporcjonalny.",
-    "challenge_p2": "<strong>Cultural Bridges</strong> zostal zaprojektowany w odpowiedzi na te rzeczywistosc -- poniewaz wlaczenie zaczyna sie od spotkania.",
+    "challenge_title": "Wyzwanie, któremu stawiamy czoła",
+    "challenge_p1": "W całej Europie młodzi ludzie nadal napotykają bariery zakorzenione w rasizmie, dyskryminacji i wykluczeniu społecznym. Młodzi migranci i mniejszości są dotknięci w sposób nieproporcjonalny.",
+    "challenge_p2": "<strong>Cultural Bridges</strong> został zaprojektowany w odpowiedzi na tę rzeczywistość — ponieważ włączenie zaczyna się od spotkania.",
     "objectives_title": "Cele",
-    "obj1_title": "Promowanie empatii i zrozumienia miedzykulturowego",
-    "obj1_desc": "Umozliwienie uczestnikom wyjscia poza stereotypy i rozwijanie glebszego zrozumienia roznic i podobienistw kulturowych.",
-    "obj2_title": "Rozwijanie kompetencji spolecznych i miedzykulturowych",
-    "obj2_desc": "Danie mlodym ludziom mozliwosci praktykowania komunikacji, pracy zespolowej i rozwiazywania konfliktow w rzeczywistych, wielokulturowych warunkach.",
-    "obj3_title": "Budowanie miedzynarodowej sieci zaangazowanej mlodziezy",
-    "obj3_desc": "Wspieranie tworzenia trwalych relacji i wspolnych projektow promujacych wlaczenie i roznorodnosc ponad granicami.",
+    "obj1_title": "Promowanie empatii i zrozumienia międzykulturowego",
+    "obj1_desc": "Umożliwienie uczestnikom wyjścia poza stereotypy i rozwijanie głębszego zrozumienia różnic i podobieństw kulturowych.",
+    "obj2_title": "Rozwijanie kompetencji społecznych i międzykulturowych",
+    "obj2_desc": "Danie młodym ludziom możliwości praktykowania komunikacji, pracy zespołowej i rozwiązywania konfliktów w rzeczywistych, wielokulturowych warunkach.",
+    "obj3_title": "Budowanie międzynarodowej sieci zaangażowanej młodzieży",
+    "obj3_desc": "Wspieranie tworzenia trwałych relacji i wspólnych projektów promujących włączenie i różnorodność ponad granicami.",
     "partners_title": "Partnerzy",
     "timeline_title": "Harmonogram projektu",
-    "disclaimer": "Projekt zostal sfinansowany przy wsparciu Komisji Europejskiej. Niniejsza publikacja odzwierciedla jedynie poglady jej autorow."
+    "disclaimer": "Projekt został sfinansowany przy wsparciu Komisji Europejskiej. Niniejsza publikacja odzwierciedla jedynie poglądy jej autorów."
   },
   "about_partners": {
-    "org1_desc": "Stowarzyszenie mlodziezowe z siedziba w Lleida, dzialajace na rzecz wlaczenia spolecznego i wzmacniania pozycji mlodych ludzi z roznych srodowisk poprzez edukacje pozaformalna i projekty europejskie.",
-    "org2_desc": "Polska organizacja mlodziezowa z siedziba w Warszawie, zaangazowana w promowanie dialogu miedzykulturowego, zwalczanie dyskryminacji i integracje mlodych migrantow.",
-    "org3_desc": "Francuskie stowarzyszenie z siedziba w Ile-de-France, dzialajace na rzecz wlaczenia spolecznego mlodych ludzi poprzez dzialania obywatelskie, edukacyjne i miedzykulturowe."
+    "org1_desc": "Stowarzyszenie młodzieżowe z siedzibą w Lleida, działające na rzecz włączenia społecznego i wzmacniania pozycji młodych ludzi z różnych środowisk poprzez edukację pozaformalną i projekty europejskie.",
+    "org2_desc": "Polska organizacja młodzieżowa z siedzibą w Warszawie, zaangażowana w promowanie dialogu międzykulturowego, zwalczanie dyskryminacji i integrację młodych migrantów.",
+    "org3_desc": "Francuskie stowarzyszenie z siedzibą w Île-de-France, działające na rzecz włączenia społecznego młodych ludzi poprzez działania obywatelskie, edukacyjne i międzykulturowe."
   },
   "timeline": {
-    "t1_date": "Grudzien 2024",
-    "t1_event": "Rozpoczecie projektu",
-    "t1_desc": "Oficjalny poczatek partnerstwa i planowanie dzialan.",
-    "t2_date": "Styczen - Kwiecien 2025",
-    "t2_event": "Dzialanie 1: Lokalne warsztaty",
-    "t2_desc": "Warsztaty przygotowawcze w kazdym kraju partnerskim z mlodymi uczestnikami.",
+    "t1_date": "Grudzień 2024",
+    "t1_event": "Rozpoczęcie projektu",
+    "t1_desc": "Oficjalny początek partnerstwa i planowanie działań.",
+    "t2_date": "Styczeń – Kwiecień 2025",
+    "t2_event": "Działanie 1: Lokalne warsztaty",
+    "t2_desc": "Warsztaty przygotowawcze w każdym kraju partnerskim z młodymi uczestnikami.",
     "t3_date": "Maj 2025",
-    "t3_event": "Dzialanie 2: Wymiana w Warszawie",
-    "t3_desc": "5 dni wymian kulturowych i wizyt terenowych z 30 uczestnikami w Warszawie, Polska.",
-    "t4_date": "Czerwiec 2025 - Marzec 2026",
-    "t4_event": "Dzialanie 3: Kampanie swiadomosciowe",
-    "t4_desc": "Publikacja artykulow, tresci w mediach spolecznosciowych i wydarzenia spoleczne w 3 krajach.",
-    "t5_date": "Kwiecien - Maj 2026",
-    "t5_event": "Zakonczenie i raport koncowy",
-    "t5_desc": "Ewaluacja koncowa, plan zrownowazonego rozwoju i zlozenie raportu do agencji narodowej."
+    "t3_event": "Działanie 2: Wymiana w Warszawie",
+    "t3_desc": "5 dni wymian kulturowych i wizyt terenowych z 30 uczestnikami w Warszawie.",
+    "t4_date": "Czerwiec 2025 – Marzec 2026",
+    "t4_event": "Działanie 3: Kampanie świadomościowe",
+    "t4_desc": "Publikacja artykułów, treści w mediach społecznościowych i wydarzenia społeczne w 3 krajach.",
+    "t5_date": "Kwiecień – Maj 2026",
+    "t5_event": "Zakończenie i raport końcowy",
+    "t5_desc": "Ewaluacja końcowa, plan zrównoważonego rozwoju i złożenie raportu do agencji narodowej."
   },
   "footer": {
-    "tagline": "Wzmacnianie miedzykulturowosci i wlaczenia spolecznego wsrod mlodziezy",
-    "period": "Erasmus+ KA210-YOU | Gru 2024 - Maj 2026",
+    "tagline": "Wzmacnianie międzykulturowości i włączenia społecznego wśród młodzieży",
+    "period": "Erasmus+ KA210-YOU | Gru. 2024 – Maj 2026",
     "partners_title": "Partnerzy",
     "programme_title": "Program",
-    "programme_desc": "Wspolfinansowane przez Unie Europejska w ramach programu Erasmus+. Wyrazone poglady sa wylacznie pogladami autorow.",
-    "copyright": "Cultural Bridges Project. Wspolfinansowane przez Unie Europejska."
+    "programme_desc": "Współfinansowane przez Unię Europejską w ramach programu Erasmus+. Wyrażone poglądy są wyłącznie poglądami autorów.",
+    "copyright": "Cultural Bridges Project. Współfinansowane przez Unię Europejską."
   },
   "articles": {
     "a1_tag": "Komunikat prasowy",
-    "a1_title": "30 mlodych Europejczykow jednoczy sie w Warszawie, aby budowac mosty kulturowe",
-    "a1_excerpt": "Trzydziestu mlodych ludzi z trzech krajow europejskich spotkalo sie w Warszawie w dniach 14-18 maja 2025 r. na wymiane mlodziezowa Erasmus+ w ramach projektu Cultural Bridges.",
+    "a1_title": "30 młodych Europejczyków jednoczy się w Warszawie, aby budować mosty kulturowe",
+    "a1_excerpt": "Trzydziestu młodych ludzi z trzech krajów europejskich spotkało się w Warszawie w dniach 14–18 maja 2025 r. na wymianę młodzieżową Erasmus+ w ramach projektu Cultural Bridges.",
     "a1_date": "18 maja 2025",
-    "a2_tag": "Swiadectwo",
-    "a2_title": "Czego nauczylem sie o sobie, zyjac z 29 nieznajomymi z 3 krajow",
-    "a2_excerpt": "Wsiadlem do samolotu do Warszawy przeraizy. Nie spodziewalem sie, ze to zmieni sposob, w jaki postrzegam siebie.",
+    "a2_tag": "Świadectwo",
+    "a2_title": "Czego nauczyłem się o sobie, żyjąc z 29 nieznajomymi z 3 krajów",
+    "a2_excerpt": "Wsiadłem do samolotu do Warszawy przerażony. Nie spodziewałem się, że to zmieni sposób, w jaki postrzegam siebie.",
     "a2_date": "Maj 2025",
-    "a3_tag": "Artykul opiniotwoorczy",
-    "a3_title": "Dlaczego edukacja pozaformalna jest kluczem do walki z rasizmem wsrod mlodziezy",
-    "a3_excerpt": "Europa ma problem z rasizmem, a tradycyjna edukacja sama go nie rozwiazuje. W projekcie Cultural Bridges wierzymy, ze odpowiedz lezy w edukacji pozaformalnej.",
+    "a3_tag": "Artykuł opiniotwórczy",
+    "a3_title": "Dlaczego edukacja pozaformalna jest kluczem do walki z rasizmem wśród młodzieży",
+    "a3_excerpt": "Europa ma problem z rasizmem, a tradycyjna edukacja sama go nie rozwiązuje. W projekcie Cultural Bridges wierzymy, że odpowiedź leży w edukacji pozaformalnej.",
     "a3_date": "Maj 2025"
   },
-  "eu_disclaimer": "Wspolfinansowane przez Unie Europejska. Wyrazone poglady i opinie sa wylacznie pogladami autora(ow) i niekoniecznie odzwierciedlaja poglady Unii Europejskiej lub EACEA.",
+  "eu_disclaimer": "Współfinansowane przez Unię Europejską. Wyrażone poglądy i opinie są wyłącznie poglądami autora(ów) i niekoniecznie odzwierciedlają poglądy Unii Europejskiej lub EACEA.",
   "fields": {
     "programme": "Program",
     "form_id": "Form ID",
     "duration": "Czas trwania",
-    "budget": "Calkowity budzet",
-    "participants": "Liczba uczestnikow",
-    "language": "Jezyk roboczy",
-    "duration_val": "01/12/2024 - 31/05/2026 (18 miesiecy)",
+    "budget": "Całkowity budżet",
+    "participants": "Liczba uczestników",
+    "language": "Język roboczy",
+    "duration_val": "01/12/2024 – 31/05/2026 (18 miesięcy)",
     "budget_val": "60 000 EUR",
-    "participants_val": "30 mlodych (18-30 lat)",
+    "participants_val": "30 młodych (18–30 lat)",
     "language_val": "Angielski"
   }
 }

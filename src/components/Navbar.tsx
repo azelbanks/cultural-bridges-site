@@ -15,10 +15,10 @@ export default function Navbar() {
   const pathWithoutLang = "/" + segments.slice(1).join("/");
 
   const navLabels: Record<Locale, [string, string, string, string]> = {
-    fr: ["Accueil", "Resultats", "Blog", "A propos"],
+    fr: ["Accueil", "Résultats", "Blog", "À propos"],
     en: ["Home", "Results", "Blog", "About"],
     es: ["Inicio", "Resultados", "Blog", "Acerca de"],
-    pl: ["Strona glowna", "Wyniki", "Blog", "O projekcie"],
+    pl: ["Strona główna", "Wyniki", "Blog", "O projekcie"],
   };
   const labels = navLabels[currentLang];
 

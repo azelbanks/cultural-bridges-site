@@ -8,34 +8,34 @@
   "hero": {
     "badge": "Erasmus+ KA210-YOU",
     "title": "Cultural Bridges",
-    "subtitle": "Fortaleciendo la Interculturalidad y la Inclusion Social entre la Juventud",
+    "subtitle": "Fortaleciendo la Interculturalidad y la Inclusión Social entre la Juventud",
     "quote": "Construyendo puentes entre culturas, derribando muros entre personas.",
     "cta_results": "Ver resultados",
     "cta_blog": "Leer el blog"
   },
   "stats": {
     "participants": "Participantes",
-    "countries": "Paises socios",
+    "countries": "Países socios",
     "months": "Meses de proyecto",
     "budget": "Presupuesto total"
   },
   "project": {
     "title": "El Proyecto",
-    "desc1": "<strong>Cultural Bridges (CCIY)</strong> es una asociacion Erasmus+ KA210-YOU que reune a tres organizaciones juveniles de Espana, Polonia y Francia para fomentar la comprension intercultural, luchar contra la discriminacion y promover la inclusion social entre los jovenes europeos.",
-    "desc2": "A lo largo de 18 meses (diciembre 2024 - mayo 2026), el proyecto crea espacios donde jovenes de diversos origenes aprenden unos de otros, cuestionan estereotipos y construyen conexiones duraderas mas alla de las fronteras."
+    "desc1": "<strong>Cultural Bridges (CCIY)</strong> es una asociación Erasmus+ KA210-YOU que reúne a tres organizaciones juveniles de España, Polonia y Francia para fomentar la comprensión intercultural, luchar contra la discriminación y promover la inclusión social entre los jóvenes europeos.",
+    "desc2": "A lo largo de 18 meses (diciembre 2024 – mayo 2026), el proyecto crea espacios donde jóvenes de diversos orígenes aprenden unos de otros, cuestionan estereotipos y construyen conexiones duraderas más allá de las fronteras."
   },
   "approach": {
     "title": "Nuestro Enfoque",
-    "pillar1_title": "Educacion No Formal",
-    "pillar1_desc": "Talleres interactivos, aprendizaje entre pares y expresion creativa para desarrollar competencias interculturales fuera del aula.",
-    "pillar2_title": "Inmersion Intercultural",
-    "pillar2_desc": "Experiencias de intercambio directo en tres paises, poniendo a los jovenes cara a cara con diferentes culturas, tradiciones y perspectivas.",
+    "pillar1_title": "Educación No Formal",
+    "pillar1_desc": "Talleres interactivos, aprendizaje entre pares y expresión creativa para desarrollar competencias interculturales fuera del aula.",
+    "pillar2_title": "Inmersión Intercultural",
+    "pillar2_desc": "Experiencias de intercambio directo en tres países, poniendo a los jóvenes cara a cara con diferentes culturas, tradiciones y perspectivas.",
     "pillar3_title": "Empoderamiento Juvenil",
-    "pillar3_desc": "Dotar a los participantes de las competencias, la confianza y las redes para convertirse en agentes activos de la inclusion en sus comunidades."
+    "pillar3_desc": "Dotar a los participantes de las competencias, la confianza y las redes para convertirse en agentes activos de la inclusión en sus comunidades."
   },
   "partners_section": {
-    "title": "Paises Socios",
-    "spain": "Espana",
+    "title": "Países Socios",
+    "spain": "España",
     "poland": "Polonia",
     "france": "Francia",
     "coordinator": "Coordinador",
@@ -43,97 +43,97 @@
   },
   "cta": {
     "title": "Descubre nuestros resultados",
-    "desc": "Informes de actividad, guias pedagogicas, folletos y mucho mas.",
+    "desc": "Informes de actividad, guías pedagógicas, folletos y mucho más.",
     "button": "Explorar resultados"
   },
   "blog_page": {
-    "title": "Blog y Articulos",
-    "subtitle": "Notas de prensa, testimonios y articulos de opinion del proyecto Cultural Bridges",
-    "read_more": "Leer articulo completo"
+    "title": "Blog y Artículos",
+    "subtitle": "Notas de prensa, testimonios y artículos de opinión del proyecto Cultural Bridges",
+    "read_more": "Leer artículo completo"
   },
   "results_page": {
     "title": "Resultados y Entregables",
     "subtitle": "Todos los documentos y producciones del proyecto Cultural Bridges",
-    "note": "Todos los documentos estan disponibles en formato PDF. Para mas informacion, contacte a uno de los socios del proyecto.",
+    "note": "Todos los documentos están disponibles en formato PDF. Para más información, contacte a uno de los socios del proyecto.",
     "cat1": "Informes de actividad",
-    "cat2": "Cuestionarios y Analisis",
+    "cat2": "Cuestionarios y Análisis",
     "cat3": "Propuestas de proyectos de los participantes",
-    "cat4": "Publicaciones y Guias",
-    "cat5": "Documentos de gestion"
+    "cat4": "Publicaciones y Guías",
+    "cat5": "Documentos de gestión"
   },
   "about_page": {
     "title": "Acerca del proyecto",
-    "subtitle": "Cultural Bridges: Fortaleciendo la Interculturalidad y la Inclusion Social entre la Juventud",
+    "subtitle": "Cultural Bridges: Fortaleciendo la Interculturalidad y la Inclusión Social entre la Juventud",
     "project_card": "Ficha del proyecto",
-    "challenge_title": "El desafio que abordamos",
-    "challenge_p1": "En toda Europa, los jovenes siguen enfrentando barreras arraigadas en el racismo, la discriminacion y la exclusion social. Los jovenes migrantes y de minorias se ven afectados de manera desproporcionada.",
-    "challenge_p2": "<strong>Cultural Bridges</strong> fue disenado en respuesta a esta realidad, porque la inclusion comienza con el encuentro.",
+    "challenge_title": "El desafío que abordamos",
+    "challenge_p1": "En toda Europa, los jóvenes siguen enfrentando barreras arraigadas en el racismo, la discriminación y la exclusión social. Los jóvenes migrantes y de minorías se ven afectados de manera desproporcionada.",
+    "challenge_p2": "<strong>Cultural Bridges</strong> fue diseñado en respuesta a esta realidad — porque la inclusión comienza con el encuentro.",
     "objectives_title": "Objetivos",
-    "obj1_title": "Promover la empatia y la comprension intercultural",
-    "obj1_desc": "Permitir a los participantes superar los estereotipos y desarrollar una apreciacion mas profunda de las diferencias y similitudes culturales.",
+    "obj1_title": "Promover la empatía y la comprensión intercultural",
+    "obj1_desc": "Permitir a los participantes superar los estereotipos y desarrollar una apreciación más profunda de las diferencias y similitudes culturales.",
     "obj2_title": "Desarrollar competencias sociales e interculturales",
-    "obj2_desc": "Dar a los jovenes la oportunidad de practicar la comunicacion, el trabajo en equipo y la resolucion de conflictos en entornos reales y multiculturales.",
-    "obj3_title": "Construir una red internacional de jovenes comprometidos",
-    "obj3_desc": "Fomentar la creacion de relaciones duraderas y proyectos conjuntos que promuevan la inclusion y la diversidad mas alla de las fronteras.",
+    "obj2_desc": "Dar a los jóvenes la oportunidad de practicar la comunicación, el trabajo en equipo y la resolución de conflictos en entornos reales y multiculturales.",
+    "obj3_title": "Construir una red internacional de jóvenes comprometidos",
+    "obj3_desc": "Fomentar la creación de relaciones duraderas y proyectos conjuntos que promuevan la inclusión y la diversidad más allá de las fronteras.",
     "partners_title": "Los socios",
-    "timeline_title": "Cronologia del proyecto",
-    "disclaimer": "Este proyecto ha sido financiado con el apoyo de la Comision Europea. Esta publicacion refleja unicamente las opiniones de sus autores."
+    "timeline_title": "Cronología del proyecto",
+    "disclaimer": "Este proyecto ha sido financiado con el apoyo de la Comisión Europea. Esta publicación refleja únicamente las opiniones de sus autores."
   },
   "about_partners": {
-    "org1_desc": "Asociacion juvenil con sede en Lleida que trabaja por la inclusion social y el empoderamiento de jovenes de origenes diversos a traves de la educacion no formal y los proyectos europeos.",
-    "org2_desc": "Organizacion juvenil polaca con sede en Varsovia, comprometida con la promocion del dialogo intercultural, la lucha contra la discriminacion y la integracion de jovenes migrantes.",
-    "org3_desc": "Asociacion francesa situada en Ile-de-France que trabaja por la inclusion social de los jovenes a traves de acciones civicas, educativas e interculturales."
+    "org1_desc": "Asociación juvenil con sede en Lleida que trabaja por la inclusión social y el empoderamiento de jóvenes de orígenes diversos a través de la educación no formal y los proyectos europeos.",
+    "org2_desc": "Organización juvenil polaca con sede en Varsovia, comprometida con la promoción del diálogo intercultural, la lucha contra la discriminación y la integración de jóvenes migrantes.",
+    "org3_desc": "Asociación francesa situada en Île-de-France que trabaja por la inclusión social de los jóvenes a través de acciones cívicas, educativas e interculturales."
   },
   "timeline": {
     "t1_date": "Diciembre 2024",
     "t1_event": "Lanzamiento del proyecto",
-    "t1_desc": "Inicio oficial de la asociacion y planificacion de actividades.",
-    "t2_date": "Enero - Abril 2025",
+    "t1_desc": "Inicio oficial de la asociación y planificación de actividades.",
+    "t2_date": "Enero – Abril 2025",
     "t2_event": "Actividad 1: Talleres locales",
-    "t2_desc": "Talleres preparatorios en cada pais socio con los jovenes participantes.",
+    "t2_desc": "Talleres preparatorios en cada país socio con los jóvenes participantes.",
     "t3_date": "Mayo 2025",
     "t3_event": "Actividad 2: Intercambio en Varsovia",
-    "t3_desc": "5 dias de intercambios culturales y visitas de campo con 30 participantes en Varsovia, Polonia.",
-    "t4_date": "Junio 2025 - Marzo 2026",
-    "t4_event": "Actividad 3: Campanas de sensibilizacion",
-    "t4_desc": "Publicacion de articulos, contenidos en redes sociales y eventos comunitarios en los 3 paises.",
-    "t5_date": "Abril - Mayo 2026",
+    "t3_desc": "5 días de intercambios culturales y visitas de campo con 30 participantes en Varsovia, Polonia.",
+    "t4_date": "Junio 2025 – Marzo 2026",
+    "t4_event": "Actividad 3: Campañas de sensibilización",
+    "t4_desc": "Publicación de artículos, contenidos en redes sociales y eventos comunitarios en los 3 países.",
+    "t5_date": "Abril – Mayo 2026",
     "t5_event": "Cierre e informe final",
-    "t5_desc": "Evaluacion final, plan de sostenibilidad y envio del informe a la agencia nacional."
+    "t5_desc": "Evaluación final, plan de sostenibilidad y envío del informe a la agencia nacional."
   },
   "footer": {
-    "tagline": "Fortaleciendo la Interculturalidad y la Inclusion Social entre la Juventud",
-    "period": "Erasmus+ KA210-YOU | Dic 2024 - May 2026",
+    "tagline": "Fortaleciendo la Interculturalidad y la Inclusión Social entre la Juventud",
+    "period": "Erasmus+ KA210-YOU | Dic. 2024 – May. 2026",
     "partners_title": "Socios",
     "programme_title": "Programa",
-    "programme_desc": "Cofinanciado por la Union Europea a traves del programa Erasmus+. Las opiniones expresadas son unicamente las de los autores.",
-    "copyright": "Cultural Bridges Project. Cofinanciado por la Union Europea."
+    "programme_desc": "Cofinanciado por la Unión Europea a través del programa Erasmus+. Las opiniones expresadas son únicamente las de los autores.",
+    "copyright": "Cultural Bridges Project. Cofinanciado por la Unión Europea."
   },
   "articles": {
     "a1_tag": "Nota de prensa",
-    "a1_title": "30 jovenes europeos se reunen en Varsovia para construir puentes culturales",
-    "a1_excerpt": "Treinta jovenes de tres paises europeos se reunieron en Varsovia del 14 al 18 de mayo de 2025 para un intercambio juvenil Erasmus+ en el marco del proyecto Cultural Bridges.",
+    "a1_title": "30 jóvenes europeos se reúnen en Varsovia para construir puentes culturales",
+    "a1_excerpt": "Treinta jóvenes de tres países europeos se reunieron en Varsovia del 14 al 18 de mayo de 2025 para un intercambio juvenil Erasmus+ en el marco del proyecto Cultural Bridges.",
     "a1_date": "18 de mayo de 2025",
     "a2_tag": "Testimonio",
-    "a2_title": "Lo que aprendi sobre mi mismo viviendo con 29 desconocidos de 3 paises",
-    "a2_excerpt": "Subi al avion hacia Varsovia aterrorizado. Lo que no esperaba era que cambiaria la forma en que me veo a mi mismo.",
+    "a2_title": "Lo que aprendí sobre mí mismo viviendo con 29 desconocidos de 3 países",
+    "a2_excerpt": "Subí al avión hacia Varsovia aterrorizado. Lo que no esperaba era que cambiaría la forma en que me veo a mí mismo.",
     "a2_date": "Mayo 2025",
-    "a3_tag": "Articulo de opinion",
-    "a3_title": "Por que la educacion no formal es la clave para combatir el racismo entre los jovenes",
-    "a3_excerpt": "Europa tiene un problema de racismo y la educacion tradicional por si sola no lo esta resolviendo. En Cultural Bridges creemos que la respuesta esta en la educacion no formal.",
+    "a3_tag": "Artículo de opinión",
+    "a3_title": "Por qué la educación no formal es la clave para combatir el racismo entre los jóvenes",
+    "a3_excerpt": "Europa tiene un problema de racismo y la educación tradicional por sí sola no lo está resolviendo. En Cultural Bridges creemos que la respuesta está en la educación no formal.",
     "a3_date": "Mayo 2025"
   },
-  "eu_disclaimer": "Cofinanciado por la Union Europea. Los puntos de vista y opiniones expresados son exclusivamente los de su(s) autor(es) y no reflejan necesariamente los de la Union Europea o la EACEA.",
+  "eu_disclaimer": "Cofinanciado por la Unión Europea. Los puntos de vista y opiniones expresados son exclusivamente los de su(s) autor(es) y no reflejan necesariamente los de la Unión Europea o la EACEA.",
   "fields": {
     "programme": "Programa",
     "form_id": "Form ID",
-    "duration": "Duracion",
+    "duration": "Duración",
     "budget": "Presupuesto total",
-    "participants": "Numero de participantes",
+    "participants": "Número de participantes",
     "language": "Idioma de trabajo",
-    "duration_val": "01/12/2024 - 31/05/2026 (18 meses)",
+    "duration_val": "01/12/2024 – 31/05/2026 (18 meses)",
     "budget_val": "60 000 EUR",
-    "participants_val": "30 jovenes (18-30 anos)",
-    "language_val": "Ingles"
+    "participants_val": "30 jóvenes (18-30 años)",
+    "language_val": "Inglés"
   }
 }
