@@ -14,11 +14,11 @@ export default function Navbar() {
   const currentLang = (locales.includes(segments[0] as Locale) ? segments[0] : "fr") as Locale;
   const pathWithoutLang = "/" + segments.slice(1).join("/");
 
-  const navLabels: Record<Locale, [string, string, string, string]> = {
-    fr: ["Accueil", "Résultats", "Blog", "À propos"],
-    en: ["Home", "Results", "Blog", "About"],
-    es: ["Inicio", "Resultados", "Blog", "Acerca de"],
-    pl: ["Strona główna", "Wyniki", "Blog", "O projekcie"],
+  const navLabels: Record<Locale, [string, string, string, string, string]> = {
+    fr: ["Accueil", "Résultats", "Blog", "Dashboard", "À propos"],
+    en: ["Home", "Results", "Blog", "Dashboard", "About"],
+    es: ["Inicio", "Resultados", "Blog", "Dashboard", "Acerca de"],
+    pl: ["Strona główna", "Wyniki", "Blog", "Dashboard", "O projekcie"],
   };
   const labels = navLabels[currentLang];
 
@@ -26,7 +26,8 @@ export default function Navbar() {
     { href: `/${currentLang}`, label: labels[0] },
     { href: `/${currentLang}/resultats`, label: labels[1] },
     { href: `/${currentLang}/blog`, label: labels[2] },
-    { href: `/${currentLang}/a-propos`, label: labels[3] },
+    { href: `/${currentLang}/dashboard`, label: labels[3] },
+    { href: `/${currentLang}/a-propos`, label: labels[4] },
   ];
 
   return (

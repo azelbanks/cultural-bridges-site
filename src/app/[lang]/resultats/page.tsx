@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getDictionary, type Locale } from "@/i18n";
 
 type DocItem = { name: string; desc: string; file: string };
@@ -94,6 +95,26 @@ export default async function ResultatsPage({ params }: { params: Promise<{ lang
           desc: "",
           file: "/docs/Campaign_Posters_4Languages.pdf",
         },
+        {
+          name: lang === "fr" ? "Guide de facilitation" : lang === "es" ? "Guía de facilitación" : lang === "pl" ? "Przewodnik facylitacji" : "Facilitation Guide",
+          desc: lang === "fr" ? "Guide pratique pour animer des ateliers interculturels avec des jeunes." : lang === "es" ? "Guía práctica para facilitar talleres interculturales con jóvenes." : lang === "pl" ? "Praktyczny przewodnik prowadzenia warsztatów międzykulturowych z młodzieżą." : "Practical guide for facilitating intercultural workshops with young people.",
+          file: "/docs/Cultural_Bridges_Facilitation_Guide.pdf",
+        },
+        {
+          name: lang === "fr" ? "Boîte à outils pédagogique" : lang === "es" ? "Kit de herramientas pedagógicas" : lang === "pl" ? "Zestaw narzędzi pedagogicznych" : "Pedagogical Toolkit",
+          desc: lang === "fr" ? "Ensemble d'outils et méthodes pour l'éducation non formelle interculturelle." : lang === "es" ? "Conjunto de herramientas y métodos para la educación no formal intercultural." : lang === "pl" ? "Zbiór narzędzi i metod edukacji pozaformalnej międzykulturowej." : "Collection of tools and methods for intercultural non-formal education.",
+          file: "/docs/CB_Pedagogical_Toolkit.pdf",
+        },
+        {
+          name: lang === "fr" ? "Recueil de bonnes pratiques" : lang === "es" ? "Compendio de buenas prácticas" : lang === "pl" ? "Kompendium dobrych praktyk" : "Best Practices Compendium",
+          desc: lang === "fr" ? "Compilation des meilleures pratiques issues du projet Cultural Bridges." : lang === "es" ? "Recopilación de las mejores prácticas del proyecto Cultural Bridges." : lang === "pl" ? "Zbiór najlepszych praktyk z projektu Cultural Bridges." : "Compilation of best practices from the Cultural Bridges project.",
+          file: "/docs/CB_Best_Practices_Compendium.pdf",
+        },
+        {
+          name: lang === "fr" ? "Rapport d'impact et résultats" : lang === "es" ? "Informe de impacto y resultados" : lang === "pl" ? "Raport o wpływie i wynikach" : "Impact & Outcomes Report",
+          desc: lang === "fr" ? "Analyse de l'impact du projet sur les participants et les communautés." : lang === "es" ? "Análisis del impacto del proyecto en los participantes y las comunidades." : lang === "pl" ? "Analiza wpływu projektu na uczestników i społeczności." : "Analysis of the project's impact on participants and communities.",
+          file: "/docs/CB_Impact_Outcomes_Report.pdf",
+        },
       ],
     },
     {
@@ -121,6 +142,27 @@ export default async function ResultatsPage({ params }: { params: Promise<{ lang
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-4">{t.results_page.title}</h1>
           <p className="text-blue-200 text-lg">{t.results_page.subtitle}</p>
+        </div>
+      </section>
+
+      <section className="py-8 bg-gradient-to-r from-blue-50 to-indigo-50 border-b border-blue-100">
+        <div className="max-w-4xl mx-auto px-4">
+          <Link
+            href={`/${lang}/dashboard`}
+            className="flex items-center justify-between bg-white rounded-xl border border-blue-200 p-6 hover:shadow-lg transition-shadow group"
+          >
+            <div>
+              <h3 className="text-lg font-bold text-primary">
+                {lang === "fr" ? "Tableau de bord interactif" : lang === "es" ? "Panel interactivo" : lang === "pl" ? "Interaktywny panel" : "Interactive Dashboard"}
+              </h3>
+              <p className="text-text-light text-sm mt-1">
+                {lang === "fr" ? "Explorez les résultats des questionnaires avec des graphiques dynamiques" : lang === "es" ? "Explore los resultados de los cuestionarios con gráficos dinámicos" : lang === "pl" ? "Poznaj wyniki kwestionariuszy z dynamicznymi wykresami" : "Explore questionnaire results with dynamic charts"}
+              </p>
+            </div>
+            <svg className="w-6 h-6 text-primary group-hover:translate-x-1 transition-transform shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </Link>
         </div>
       </section>
 

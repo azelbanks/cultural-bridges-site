@@ -112,8 +112,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </div>
           <div className="mt-12">
             <h3 className="text-xl font-bold text-center mb-6">{t.gallery.video_title}</h3>
-            <div className="max-w-2xl mx-auto rounded-xl overflow-hidden shadow-lg">
-              <video controls className="w-full" preload="metadata" poster="/images/photo-riviera-facilitator.jpg">
+            <div className="max-w-xs mx-auto rounded-xl overflow-hidden shadow-lg">
+              <video controls className="w-full max-h-[400px]" preload="metadata" poster="/images/photo-riviera-facilitator.jpg">
                 <source src="/videos/cultural-bridges-exchange.mp4" type="video/mp4" />
               </video>
             </div>
