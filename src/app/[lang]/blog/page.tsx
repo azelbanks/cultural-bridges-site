@@ -63,7 +63,7 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
                 <Image src="/images/logo-ugpa-polska.jpeg" alt="UGPA Polska" width={40} height={40} className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover bg-white" />
                 <Image src="/images/logo-ugpa-france.jpeg" alt="Un Geste pour l'Avenir" width={40} height={40} className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover bg-white" />
                 <div className="w-px h-8 bg-white/30 mx-1" />
-                <Image src="/images/eu-cofunded.jpg" alt="Co-funded by EU" width={80} height={19} className="h-6 sm:h-8 w-auto bg-white rounded px-1" />
+                <Image src="/images/eu-cofunded-hd.jpg" alt="Co-funded by EU" width={80} height={19} className="h-6 sm:h-8 w-auto bg-white rounded px-1" />
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
               <Image src="/images/logo-ugpa-polska.jpeg" alt="UGPA Polska" width={32} height={32} className="w-7 h-7 rounded-full object-cover bg-white" />
               <Image src="/images/logo-ugpa-france.jpeg" alt="Un Geste pour l'Avenir" width={32} height={32} className="w-7 h-7 rounded-full object-cover bg-white" />
               <div className="w-px h-6 bg-white/20 mx-1" />
-              <Image src="/images/eu-cofunded.jpg" alt="Co-funded by EU" width={72} height={17} className="h-5 w-auto bg-white rounded px-1" />
+              <Image src="/images/eu-cofunded-hd.jpg" alt="Co-funded by EU" width={72} height={17} className="h-5 w-auto bg-white rounded px-1" />
               <span className="text-[10px] text-gray-500 ml-auto hidden sm:block">Erasmus+ KA210-YOU</span>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
               </div>
               <h3 className="text-xl sm:text-2xl font-bold mb-2 text-gray-900">{t.campaign.card6_title}</h3>
               <p className="text-text-light leading-relaxed mb-4">{t.campaign.card6_desc}</p>
-              <Image src="/images/eu-cofunded.jpg" alt="Co-funded by EU" width={120} height={28} className="h-7 w-auto bg-white rounded p-1 border border-gray-200" />
+              <Image src="/images/eu-cofunded-hd.jpg" alt="Co-funded by EU" width={120} height={28} className="h-7 w-auto bg-white rounded p-1 border border-gray-200" />
             </div>
           </div>
         </div>

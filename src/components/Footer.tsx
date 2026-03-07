@@ -66,7 +66,7 @@ export default function Footer() {
             <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3">{t.programme}</h3>
             <p className="text-sm text-blue-200 mb-3 sm:mb-4">{t.programmeDesc}</p>
             <Image
-              src="/images/eu-cofunded.jpg"
+              src="/images/eu-cofunded-hd.jpg"
               alt="Co-funded by the European Union"
               width={200}
               height={47}

@@ -131,7 +131,7 @@ export default async function DashboardPage({ params }: { params: Promise<{ lang
 
       <section className="py-8 bg-white border-t border-border">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <Image src="/images/eu-cofunded.jpg" alt="Co-funded by the European Union" width={180} height={42} className="mx-auto mb-3" />
+          <Image src="/images/eu-cofunded-hd.jpg" alt="Co-funded by the European Union" width={180} height={42} className="mx-auto mb-3" />
           <p className="text-xs text-text-light italic">{dict.eu_disclaimer}</p>
         </div>
       </section>
