@@ -19,7 +19,7 @@ const articlesByLang: Record<Locale, Article[]> = {
       date: "Décembre 2024",
       content: `Le projet Cultural Bridges : Strengthening Interculturality and Social Inclusion among Youth est officiellement lancé en décembre 2024. Ce partenariat à petite échelle (KA210-YOU) du programme Erasmus+ réunit trois organisations de jeunesse de trois pays européens.
 
-L'Associació Juvenil Ndiatiguia Joves Units (Lleida, Espagne), coordinatrice du projet, UGPA POLSKA (Varsovie, Pologne) et Un Geste pour l'Avenir (Boissy-Saint-Léger, France) unissent leurs forces pour un projet de 18 mois doté d'un budget de 60 000 euros.
+L'Associació Juvenil Ndiatiguia Joves Units (Lleida, Espagne), coordinatrice du projet, UGPA POLSKA (Varsovie, Pologne) et Un Geste pour l'Avenir (Morsang-sur-Orge, France) unissent leurs forces pour un projet de 18 mois doté d'un budget de 60 000 euros.
 
 L'objectif est ambitieux : créer des espaces de rencontre et d'apprentissage où 30 jeunes Européens âgés de 18 à 30 ans pourront développer leurs compétences interculturelles, lutter contre les stéréotypes et devenir des acteurs de l'inclusion dans leurs communautés.
 
@@ -147,7 +147,7 @@ Le partenariat entre les trois organisations se poursuivra au-delà du projet, a
       date: "December 2024",
       content: `The Cultural Bridges project was officially launched in December 2024. This small-scale partnership (KA210-YOU) under the Erasmus+ programme brings together three youth organisations from three European countries.
 
-Associació Juvenil Ndiatiguia Joves Units (Lleida, Spain), the project coordinator, UGPA POLSKA (Warsaw, Poland), and Un Geste pour l'Avenir (Boissy-Saint-Léger, France) join forces for an 18-month project with a budget of EUR 60,000.
+Associació Juvenil Ndiatiguia Joves Units (Lleida, Spain), the project coordinator, UGPA POLSKA (Warsaw, Poland), and Un Geste pour l'Avenir (Morsang-sur-Orge, France) join forces for an 18-month project with a budget of EUR 60,000.
 
 The objective is ambitious: to create spaces for encounter and learning where 30 young Europeans aged 18 to 30 can develop their intercultural skills, fight stereotypes, and become agents of inclusion in their communities.
 
@@ -275,7 +275,7 @@ The partnership between the three organisations will continue beyond the project
       date: "Diciembre 2024",
       content: `El proyecto Cultural Bridges se lanzó oficialmente en diciembre de 2024. Esta asociación a pequeña escala (KA210-YOU) del programa Erasmus+ reúne a tres organizaciones juveniles de tres países europeos.
 
-La Associació Juvenil Ndiatiguia Joves Units (Lleida, España), coordinadora del proyecto, UGPA POLSKA (Varsovia, Polonia) y Un Geste pour l'Avenir (Boissy-Saint-Léger, Francia) unen fuerzas para un proyecto de 18 meses con un presupuesto de 60 000 euros.
+La Associació Juvenil Ndiatiguia Joves Units (Lleida, España), coordinadora del proyecto, UGPA POLSKA (Varsovia, Polonia) y Un Geste pour l'Avenir (Morsang-sur-Orge, Francia) unen fuerzas para un proyecto de 18 meses con un presupuesto de 60 000 euros.
 
 El objetivo es ambicioso: crear espacios de encuentro y aprendizaje donde 30 jóvenes europeos de 18 a 30 años puedan desarrollar sus competencias interculturales, luchar contra los estereotipos y convertirse en agentes de inclusión en sus comunidades.
 
@@ -397,7 +397,7 @@ La asociación entre las tres organizaciones continuará más allá del proyecto
       date: "Grudzień 2024",
       content: `Projekt Cultural Bridges został oficjalnie uruchomiony w grudniu 2024 roku. To partnerstwo na małą skalę (KA210-YOU) w ramach programu Erasmus+ łączy trzy organizacje młodzieżowe z trzech krajów europejskich.
 
-Associació Juvenil Ndiatiguia Joves Units (Lleida, Hiszpania), koordynator projektu, UGPA POLSKA (Warszawa, Polska) i Un Geste pour l'Avenir (Boissy-Saint-Léger, Francja) łączą siły na 18-miesięczny projekt z budżetem 60 000 euro.
+Associació Juvenil Ndiatiguia Joves Units (Lleida, Hiszpania), koordynator projektu, UGPA POLSKA (Warszawa, Polska) i Un Geste pour l'Avenir (Morsang-sur-Orge, Francja) łączą siły na 18-miesięczny projekt z budżetem 60 000 euro.
 
 Cel jest ambitny: stworzyć przestrzenie spotkania i nauki, w których 30 młodych Europejczyków w wieku 18–30 lat może rozwijać swoje kompetencje międzykulturowe, walczyć ze stereotypami i stać się agentami włączenia w swoich społecznościach.
 

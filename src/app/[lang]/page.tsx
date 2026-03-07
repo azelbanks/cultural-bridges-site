@@ -37,7 +37,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   const partnersData = [
     { flag: "\u{1F1EA}\u{1F1F8}", country: t.partners_section.spain, org: "Assoc. Juvenil Ndiatiguia Joves Units", city: "Lleida", role: t.partners_section.coordinator, logo: "/images/logo-ndiatiguia.jpeg" },
     { flag: "\u{1F1F5}\u{1F1F1}", country: t.partners_section.poland, org: "UGPA POLSKA", city: "Varsovie / Warsaw", role: t.partners_section.partner, logo: "/images/logo-ugpa-polska.jpeg" },
-    { flag: "\u{1F1EB}\u{1F1F7}", country: t.partners_section.france, org: "Un Geste pour l'Avenir", city: "Boissy-Saint-Leger", role: t.partners_section.partner, logo: "/images/logo-ugpa-france.jpeg" },
+    { flag: "\u{1F1EB}\u{1F1F7}", country: t.partners_section.france, org: "Un Geste pour l'Avenir", city: "Morsang-sur-Orge", role: t.partners_section.partner, logo: "/images/logo-ugpa-france.jpeg" },
   ];
 
   return (
