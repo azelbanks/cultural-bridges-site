@@ -114,6 +114,15 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               { src: "/images/photo-group-fun.jpg", alt: "Group fun moment" },
               { src: "/images/photo-gallery-selfie.jpg", alt: "Gallery group selfie" },
               { src: "/images/photo-riviera-wide.jpg", alt: "Riviera workshop space" },
+              { src: "/images/photo-lleida-1.jpeg", alt: "Group photo Lleida street" },
+              { src: "/images/photo-lleida-2.jpeg", alt: "Evening outing" },
+              { src: "/images/photo-lleida-3.jpeg", alt: "Workshop presentation" },
+              { src: "/images/photo-lleida-4.jpeg", alt: "Facilitator inclusion workshop" },
+              { src: "/images/photo-lleida-5.jpeg", alt: "Group at train station" },
+              { src: "/images/photo-lleida-6.jpeg", alt: "Participants listening" },
+              { src: "/images/photo-lleida-7.jpeg", alt: "Young participants workshop" },
+              { src: "/images/photo-lleida-8.jpeg", alt: "Group photo Lleida" },
+              { src: "/images/photo-lleida-9.jpeg", alt: "Discussion session" },
             ].map((photo) => (
               <div key={photo.src} className="rounded-lg overflow-hidden aspect-square relative hover:scale-[1.03] transition-transform shadow-md">
                 <Image src={photo.src} alt={photo.alt} fill className="object-cover" sizes="(max-width: 768px) 50vw, 20vw" />
