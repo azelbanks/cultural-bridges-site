@@ -515,5 +515,5 @@ Partnerstwo między trzema organizacjami będzie kontynuowane poza projektem, z 
 };
 
 export function getArticles(lang: Locale): Article[] {
-  return articlesByLang[lang] || articlesByLang.en;
+  return [...(articlesByLang[lang] || articlesByLang.en)].reverse();
 }
