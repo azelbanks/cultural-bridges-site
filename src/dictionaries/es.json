@@ -53,7 +53,22 @@
   "blog_page": {
     "title": "Blog y Artículos",
     "subtitle": "Notas de prensa, testimonios y artículos de opinión del proyecto Cultural Bridges",
-    "read_more": "Leer artículo completo"
+    "read_more": "Leer artículo completo",
+    "campaign_title": "Campaña de sensibilización"
+  },
+  "campaign": {
+    "card1_title": "30 Voces, 3 Países, 1 Misión",
+    "card1_desc": "Jóvenes de España, Polonia y Francia unidos para construir una Europa más inclusiva.",
+    "card2_title": "La inclusión empieza por el encuentro",
+    "card2_desc": "Cuando compartimos, entendemos. Cuando entendemos, respetamos. Cuando respetamos, incluimos.",
+    "card3_title": "Actuar contra la discriminación",
+    "card3_desc": "El 97% de nuestros participantes recomienda esta experiencia. Únete al movimiento por el diálogo intercultural.",
+    "card4_title": "La juventud europea en acción",
+    "card4_desc": "+31% de mejora en competencias interculturales medida entre nuestros 30 participantes tras el intercambio.",
+    "card5_title": "Conectar. Aprender. Actuar.",
+    "card5_desc": "Cultural Bridges da a los jóvenes las herramientas para convertirse en agentes de cambio en sus comunidades.",
+    "card6_title": "La diversidad es nuestra fuerza",
+    "card6_desc": "18 meses de proyecto, 3 países, decenas de talleres y una red duradera de jóvenes europeos comprometidos."
   },
   "results_page": {
     "title": "Resultados y Entregables",
