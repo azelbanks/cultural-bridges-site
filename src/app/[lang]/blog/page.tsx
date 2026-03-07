@@ -96,8 +96,8 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
               </div>
               <div className="flex gap-4 sm:gap-6 shrink-0">
                 <div className="text-center">
-                  <p className="text-3xl sm:text-4xl font-bold text-accent">30</p>
-                  <p className="text-xs text-gray-400 mt-1">participants</p>
+                  <p className="text-3xl sm:text-4xl font-bold text-accent">3</p>
+                  <p className="text-xs text-gray-400 mt-1">countries</p>
                 </div>
                 <div className="text-center">
                   <p className="text-3xl sm:text-4xl font-bold text-green-400">+31%</p>
